@@ -7,7 +7,7 @@
 image::figures/ubuntu-mate.png[]
 
 .Disclaimer
-WARNING: This document was automatically converted from DocBook, there is a high chance that parts of the text are missing or presented in the wrong format.  This version still needs a bunch of manual cleanup, proofreading and restructuring. If you wish to read the original source written in DocBook XML V4.5 format  - head over to: https://github.com/ubuntu-mate/ubuntu-mate-guide[]. 
+WARNING: This document was automatically converted from DocBook, there is a high chance that parts of the text are missing or is in incorrect format.  This version still needs a bunch of manual cleanup, proofreading and restructuring. If you wish to read the original source written in DocBook XML V4.5 format  - head over to: https://github.com/ubuntu-mate/ubuntu-mate-guide[]. 
 
 DocBook version is bundled with the latest release of Ubuntu MATE 18.04
 
@@ -369,8 +369,15 @@ The <<_panel_layouts_netbook>>, <<_panel_layouts_mutiny>> and <<_panel_layouts_c
 [app]``MATE Calculator`` has four modes: Basic, Advanced, Financial and Programming.
 The Advanced mode is shown, below. 
 
+[cols="1", frame="all"]
+|===
+
+|
+
+
 image::figures/MATE_calculator.png[]
 
+|===
 
 .Calculator
 [TIP]
@@ -482,10 +489,11 @@ Besides this, all available metadata (like EXIF) will be preserved and updated a
 
 image::figures/exif-data.png[]
 
+
 [[_page.atril]]
 == Document Viewer (Atril)
 
-image:apps/atril.png[] The [app]``Atril Document Viewer``, found in the Ubuntu MATE menus at menu:Menu[Office > Atril Document Viewer], enables you to view documents of various formats like Portable Document Format (PDF) files, PostScript files, and e-book (EPUB) files. 
+image:apps/atril.png[] The [app]``Atril Document Viewer``, found in the Ubuntu MATE menus at ``Menu`` > ``Office`` > ``Atril Document Viewer``, enables you to view documents of various formats like Portable Document Format (PDF) files, PostScript files, and e-book (EPUB) files. 
 
 .Note
 [NOTE]
@@ -493,7 +501,7 @@ image:apps/atril.png[] The [app]``Atril Document Viewer``, found in the Ubuntu M
 Your first Ubuntu MATE menu choice depends on which of the <<_personalization_panel_layouts>> you have selected. 
 
 If you chose the default <<_panel_layouts_familiar>>, the first menu item is ``Menu``.
-It is also the first menu item for <<_panel_layouts_contemporary>>, <<_panel_layouts_redmond>>, and <<_panel_layouts_pantheon>>. menu:Applications[] is the first item for the <<_panel_layouts_traditional>>.
+It is also the first menu item for <<_panel_layouts_contemporary>>, <<_panel_layouts_redmond>>, and <<_panel_layouts_pantheon>>. ``Applications`` is the first item for the <<_panel_layouts_traditional>>.
 The <<_panel_layouts_netbook>>, <<_panel_layouts_mutiny>> and <<_panel_layouts_cupertino>> have no label and simply display the Ubuntu MATE logo to represent the menu. 
 ====
 
@@ -589,15 +597,15 @@ The <<_panel_layouts_netbook>>, <<_panel_layouts_mutiny>> and <<_panel_layouts_c
 
 image::figures/sysmon_system.png[]
 
-The [label]#System# tab shows information about the computer's hardware and software, as shown above.
-The [label]#Processes# tab, shown below, shows information about active processes (applications, utilities, etc.) and how they relate to each other.
-You can stop, end, or kill a process or otherwise control active processes. 
 
+The _[label]#System#_ tab shows information about the computer's hardware and software, as shown above.
+The _[label]#Processes#_ tab, shown below, shows information about active processes (applications, utilities, etc.) and how they relate to each other.
+You can stop, end, or kill a process or otherwise control active processes. 
 
 image::figures/sysmon_processes.png[]
 
 
-The [label]#Resources# tab displays current CPU, memory, and network usage. menu:File Systems[] lists all mounted file systems and basic information about each. 
+The _[label]#Resources#_ tab displays current CPU, memory, and network usage. menu:File Systems[] lists all mounted file systems and basic information about each. 
 
 .System Monitor
 [TIP]
@@ -639,6 +647,7 @@ It is a powerful command-line tool which can be used to install new software pac
 For additional information about the [app]``apt`` application, type the following in a terminal window: 
 
 ----
+
 man apt
 ----
 ====
@@ -691,7 +700,7 @@ sudo apt update
 
 When that command has finished running, type the following to complete the upgrade: 
 
----
+----
 sudo apt upgrade
 ----
 
@@ -727,7 +736,6 @@ The command listed below runs lshw with the -html option to create an html file.
 Open it in a browser and you have a nice "web page" with all of your hardware specs. 
 
 ----
-
 sudo lshw -html>myhardware.html
 ----
 
@@ -750,8 +758,8 @@ To go there directly, open the [app]``MATE Terminal`` application from the menu,
 image:apps/control-centre.png[] The [app]``Control Center`` provides you with a single window that houses all of the major Ubuntu MATE preference tools.
 These tools let you tweak the way things look and behave, manage software updates, and make adjustments to the printing system, among other things. 
 
-
 image::figures/control_center.png[]
+
 
 Simply click the icon for the preference you want to adjust.
 Each of these preferences is also available under the menu:Menu[Preferences] menu.
@@ -814,14 +822,13 @@ If you did not purchase your computer with Linux pre-installed, you may find tha
 
 image::figures/drivers.png[]
 
-
 The open source drivers for some proprietary devices, the ones provided in the kernel, are sometimes reverse-engineered.
 What that means is that the manufacturers of proprietary devices won't provide the specifications or the details of their own drivers to open source developers because they want to keep their "technology" secret.
 (Hence the term proprietary.) The developers of reverse-engineered drivers provided in Ubuntu MATE have made their best effort and have tested the functionality thoroughly, but sometimes there are features that could not be reproduced and are not provided in these drivers. 
 
 Sometimes, though, manufacturers of proprietary devices will provide Linux-compatible drivers that they develop themselves.
 They won't let us know how their drivers work, so they never make it into the kernel, but where these proprietary drivers are available, they sometimes perform better than the reverse-engineered versions.
-With Ubuntu MATE, many of the proprietary drivers that have been made available are provided in the [app]``Welcome`` application, or in [ Software & Updates ] under the [label]#Additional Drivers# tab.
+With Ubuntu MATE, many of the proprietary drivers that have been made available are provided in the [app]``Welcome`` application, or in [ Software & Updates ] under the _[label]#Additional Drivers#_ tab.
 (It's available in the menu at ``Menu`` > ``Administration`` > ``Software & Updates``.) Usually, Ubuntu MATE automatically makes the best choice of open source or proprietary drivers for your hardware when it's installed, but you have the choice of which driver works best for you. 
 
 If you find that Wi-Fi, Bluetooth or other hardware does not work, and the [ Additional Drivers ] did not find alternative drivers, you may need to research your device to find the appropriate driver.
@@ -1307,7 +1314,7 @@ You should normally choose that option, restart if required, then check for addi
 ====
 
 You have control over when and how software updates occur.
-Use the [Settings] button on the [app]``Software Updater`` screen, or from the menus, choose ``Menu`` > ``Administration`` > ``Software & Updates``, then select the [label]#Updates# tab. 
+Use the [Settings] button on the [app]``Software Updater`` screen, or from the menus, choose ``Menu`` > ``Administration`` > ``Software & Updates``, then select the _[label]#Updates#_ tab. 
 
 image::figures/updates-settings.png[]
 
@@ -1759,14 +1766,20 @@ You can also have more or fewer than two panels if you wish.
 
 image::figures/panel-properties.png[]
 
-guimenuitem . From within the dialog box, you can edit [label]#Orientation# to choose whether you want the panel at the top, at the bottom, or on one of the sides of your screen. 
-. You can increase the size of the panel, and its corresponding icons. 
-. Choose the [label]#Expand# checkbox to make the panel go completely across the screen. Uncheck it to make it behave more like a dock. 
-. Use the [label]#Show hide buttons# setting with [label]#Expand# unchecked to make buttons appear at either end of the panel to let you adjust its size. 
-. The [label]#Autohide# setting causes the panel to vanish when you move the mouse cursor away from it and reappear when your mouse reaches the edge of the screen where you placed the panel. 
-. The [label]#Background# tab gives you more options for the appearance of the panel, including the ability to make it completely transparent, a solid color, or add a graphic background image. 
-. Click [Close] to complete your modifications for this panel. 
-To add an additional panel, right-click an existing panel and ch>oose ``New Panel``. 
+From within the dialog box, you can edit _[label]#Orientation#_ to choose whether you want the panel at the top, at the bottom, or on one of the sides of your screen. 
+
+- You can increase the size of the panel, and its corresponding icons. 
+
+- Choose the _[label]#Expand#_ checkbox to make the panel go completely across the screen. Uncheck it to make it behave more like a dock. 
+
+- Use the _[label]#Show hide buttons#_ setting with _[label]#Expand#_ unchecked to make buttons appear at either end of the panel to let you adjust its size. 
+
+- The _[label]#Autohide#_ setting causes the panel to vanish when you move the mouse cursor away from it and reappear when your mouse reaches the edge of the screen where you placed the panel. 
+
+- The _[label]#Background#_ tab gives you more options for the appearance of the panel, including the ability to make it completely transparent, a solid color, or add a graphic background image. 
+Click [Close] to complete your modifications for this panel. 
+
+To add an additional panel, right-click an existing panel and choose ``New Panel``. 
 Right-click the new panel you just created (or any existing panel) and choose ``Add to panel`` to add launchers, monitors, and other panel items.  Now start over at step one, above, and edit the preferences for your shiny new panel! 
 
 [[_personalization_icons]]
@@ -1781,17 +1794,21 @@ The process is exactly the same for any application that appears in the Ubuntu M
 
 These are the steps to follow: 
 
-. Locate the application in the menu. For the word processor application, select ``Menu`` > ``Office``. (If you have chosen the Traditional Panel Layout, select ``Applications`` > ``Office``.) 
-. Now locate, but do not click on the [app]``LibreOffice Writer`` icon. Right-click on 
-``LibreOffice Writer``. From the context menu that appears, select 
-``Pin to desktop``.
-(If you have chosen the Traditional Panel Layout, select ``Add to desktop``.
+. Locate the application in the menu. For the word processor application, select ``Menu`` > ``Office``. (If you have chosen the Traditional Panel Layout, select ``Applications`` > ``Office``).
+
+. Now locate, but do not click on the [app]``LibreOffice Writer`` icon. 
+
+. Right-click on ``LibreOffice Writer``. 
+
+. From the context menu that appears, select 
+``Pin to desktop``. (If you have chosen the Traditional Panel Layout, select ``Add to desktop``.
 
 image::figures/pin-to-desktop.png[]
 
 image::figures/add-to-desktop.png[]
 
-The finished launcher will appear on your desktop as shown below. You can move it around and place it anywhere you want on the desktop. 
+[start=5]
+. The finished launcher will appear on your desktop as shown below. You can move it around and place it anywhere you want on the desktop. 
 
 image::figures/writer-desktop-icon.png[]
 
@@ -1807,7 +1824,7 @@ If you are using the Brisk menu, the same context menu lets you pin the icon as 
 If you want to create System icons for such things as your "Computer," your "Home" folder, the "Trash" icon, an icon to access locations on your "Network," or "Mounted Volumes" like USB drives and DVD drives, then Ubuntu MATE makes that easy for you, too.
 You simply use the [app]``MATE Tweak`` application, located in [app]``Control Center`` to select the icons you want to be displayed.
 The screenshot below shows your "Desktop" options.
-Ensure that the [label]#Show Desktop Icons# setting is checked to be certain that the icons you've selected are visible on your desktop. 
+Ensure that the _[label]#Show Desktop Icons#_ setting is checked to be certain that the icons you've selected are visible on your desktop. 
 
 image::figures/mate-tweak.png[]
 
@@ -1925,7 +1942,7 @@ Here are some things you can do to improve your laptop's longevity when you don'
 === 1. Adjust power management settings
 
 The Power Management Settings, found in the [app]``Control Panel``, allows you to control when the computer sleeps or hibernates, and how the display behaves.
-Focus on the [label]#On Battery Power# settings.
+Focus on the _[label]#On Battery Power#_ settings.
 If your laptop doesn't behave when hibernating, use the "sleep" or "suspend" setting when closing the lid and when the computer is idle. 
 
 image::figures/PM_Battery.png[]
@@ -1939,7 +1956,7 @@ A laptop's biggest battery usage is typically in powering the LCD screen.
 The brighter the screen, the more power is consumed.
 On some models, reducing backlight brightness from 100% to about 50% or even 30% provides enough illumination to see the screen comfortably except when outdoors, and dramatically improves battery life.
 That adjustment is usually controlled by hardware keys on your keyboard.
-If you can find a brightness setting that allows you to easily read the screen, but no brighter, then you'll extend your on-battery time for sure.
+If you can find a brightness setting that allows you to easily read the screen, but no brighter, then you'll extend your on-battery time for sure. 
 You'll find the software-based brightness adjustment on the _[label]#On AC Power#_ tab.
 Its setting applies to both when you are on AC (mains) power and when you are on battery.
 However, if you also choose _[label]#Reduce backlight brightness#_ on the _[label]#On Battery Power#_ tab, then when using battery power, your display is actually adjusted to 50% of the display brightness you choose. 
@@ -1959,9 +1976,7 @@ image::figures/bluetooth-off.png[]
 
 [app]``TLP`` is an advanced power management utility for Linux that can improve your battery life tremendously. [app]``TLP`` optimizes power settings automatically on startup and every time you change the power source.
 The Ubuntu MATE 16.04 release came with the [app]``TLP`` command-line utility pre-installed and pre-configured.
-If you are using a later release of Ubuntu MATE that doesn't install it by default, look in the [app]``Software Center`` for [app]``TLP``.
-It'll likely be there, ready to install.
-The screenshot, below, shows the default configuration of [app]``TLP`` on a Dell XPS 13. 
+If you are using a later release of Ubuntu MATE that doesn't install it by default, look in the [app]``Software Center`` for [app]``TLP``. It'll likely be there, ready to install. The screenshot, below, shows the default configuration of [app]``TLP`` on a Dell XPS 13. 
 
 image::figures/tlp-stat.png[]
 
@@ -2134,7 +2149,7 @@ This allows you to try Ubuntu MATE on your computer without installing, and with
 When you shut down and remove the "live" media, your computer is back to normal. 
 
 The quickest and easiest method of installation is using a USB drive, also referred to as a "thumb drive" "pen drive" or "USB stick." You can also use a CD or DVD to install Ubuntu MATE, but this method is recommended only for older computers or where the computer can't be configured to boot from a USB device.
-For information on how to make a CD or DVD for installation using Windows, macOS, and Ubuntu, see the "https://help.ubuntu.com/community/BurningIsoHowto#Burning_the_ISO_on_to_a_DVD[Burning ISO HowTo]" article on Ubuntu help. 
+For information on how to make a CD or DVD for installation using Windows, macOS, and Ubuntu, see the https://help.ubuntu.com/community/BurningIsoHowto#Burning_the_ISO_on_to_a_DVD["Burning ISO HowTo"] article on Ubuntu help. 
 
 Most likely, if you are considering a switch to Ubuntu MATE, you are using Windows.
 This is a link to the official Canonical (parent company behind Ubuntu) method for https://www.ubuntu.com/download/desktop/create-a-usb-stick-on-windows[Creating a bootable USB stick on Windows] using a tool called Rufus. 
@@ -2175,8 +2190,7 @@ Plug your device into a power source if it is running on battery power.
 . Completely shut down your computer. 
 . Insert the USB stick. 
 . Start the computer and watch the screen to determine which function key to press to change the boot device. The message flashes by quickly, right at the bottom edge of the screen, but the most frequently used keys are [F1], [F2], [F4], [F12] and the [Del] key. It depends on your computer's manufacturer. If your computer boots up normally and you don't see Ubuntu MATE startup, shut down and try again. 
-. When you get to the screen that lets you change the boot device, select the menu entry that represents the Ubuntu MATE live USB stick. Press the key that lets you boot using the USB stick. That's usually the [Enter] or [F10] key. If you need help, try this article from How-To Geek: "http://www.howtogeek.com/129815/beginner-geek-how-to-change-the-boot-order-in-your-computers-bios/[How to Boot Your Computer From a Disc or USB Drive]" 
-. Once the computer has started loading Ubuntu MATE, you will be given some options. Select the option: 
+. When you get to the screen that lets you change the boot device, select the menu entry that represents the Ubuntu MATE live USB stick. Press the key that lets you boot using the USB stick. That's usually the [Enter] or [F10] key. If you need help, try this article from How-To Geek: "http://www.howtogeek.com/129815/beginner-geek-how-to-change-the-boot-order-in-your-computers-bios/[How to Boot Your Computer From a Disc or USB Drive]". Once the computer has started loading Ubuntu MATE, you will be given some options. Select the option: 
 
 Try Ubuntu MATE.
 
@@ -2196,7 +2210,7 @@ image::figures/install-extras.png[]
 .Minimal Installation
 [TIP]
 ====
-[label]#Minimal Installation# is a new option for release 18.04.
+_[label]#Minimal Installation#_ is a new option for release 18.04.
 Presented as a checkbox option in the installer, it will install just the MATE Desktop, its utilities, its themes and Firefox.
 All the other applications such as office suite, email client, video player, audio manager, etc.
 are not installed.
@@ -2227,7 +2241,7 @@ The next few topics in this guide describe using this guide, the website, the co
 [[_support_guide]]
 == The Ubuntu MATE Guide
 
-image:apps/community.png[] The [app]``Ubuntu MATE Guide``, found in the Ubuntu MATE menus at menu:Menu[Accessories > Ubuntu MATE Guide], is for users needing a little extra help while learning to use Ubuntu MATE. 
+image:apps/community.png[] The [app]``Ubuntu MATE Guide``, found in the Ubuntu MATE menus at ``Menu`` > ``Accessories`` > ``Ubuntu MATE Guide``, is for users needing a little extra help while learning to use Ubuntu MATE. 
 
 In the early days of home computing, computers came with thorough documentation.
 They included a set of manuals, detailing every button, port, light, software application and software feature.
@@ -2638,12 +2652,12 @@ The Ubuntu MATE menus are: MATE Menu, Brisk Menu, MATE Dock Applet.
 | [Ctrl] + [F4]
 
 | Return window to 'normal' or previous size
-| [Alt]+[F5]
+| [Alt] + [F5]
 |
 |
 
 | Move the current window
-| [Alt]+[F7]
+| [Alt] + [F7]
 | 
 | 
 
@@ -2675,7 +2689,7 @@ The Ubuntu MATE menus are: MATE Menu, Brisk Menu, MATE Dock Applet.
 | Place window in top left corner of screen
 | [Ctrl] + [Alt] + [NumPad 7]
 |
-| [⊞]+[←], [⊞]+[↑]
+| [⊞]+ [←], [⊞] + [↑]
 
 | Place window in the top half of screen
 | [Ctrl] + [Alt] + [NumPad 8]
@@ -2840,7 +2854,7 @@ Ubuntu MATE 14.04 and Ubuntu MATE 14.10 are _unofficial_ builds.
 === Will you be making a 14.04 LTS version of Ubuntu MATE?
 
 We have, although it is not an official build.
-We have posted a https://ubuntu-mate.org/blog/2014-08-ubuntu-mate-14-04-from-scratch/[HOW-TO for installing your own Ubuntu MATE 14.04 from scratch.]
+We have posted a https://ubuntu-mate.org/blog/2014-08-ubuntu-mate-14-04-from-scratch/[HOW-TO for installing your own Ubuntu MATE 14.04 from scratch].
 
 [[_faq_xyz]]
 === Why is _xyz_ application installed by default when I prefer _abc_ application?
