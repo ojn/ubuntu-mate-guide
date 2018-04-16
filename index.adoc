@@ -1,0 +1,3002 @@
+= Ubuntu MATE Guide
+:author: Larry Bushey
+:version: 18.04
+:date: 2018-04-26
+
+
+image::figures/ubuntu-mate.png[]
+
+.Disclaimer
+WARNING: This document was automatically converted from DocBook, there is a high chance that parts of the text are missing or is in incorrect format.  This version still needs a bunch of manual cleanup, proofreading and restructuring. If you wish to read the original source written in DocBook XML V4.5 format  - head over to: https://github.com/ubuntu-mate/ubuntu-mate-guide[]. 
+
+DocBook version is bundled with the latest release of Ubuntu MATE 18.04
+
+NOTE: Ubuntu MATE Guide is licensed under a http://creativecommons.org/licenses/by/4.0/[Creative Commons Attribution 4.0 International License]
+
+
+[[_page.overview]]
+== • • • OVERVIEW • • •
+
+
+image::figures/ubuntu-mate.png[]
+
+[app]``Ubuntu MATE`` is an operating system -- the core software  that runs your computer, similar to Microsoft's Windows, Apple's macOS, and Google's Chrome OS.
+Ubuntu MATE is a distribution (variation or flavor) of Linux designed for beginners, average, and advanced computer users alike.
+It is a dependable, capable, and modern computer system that rivals all others in popularity and usage. 
+
+If you are new to Ubuntu MATE, or only casually acquainted with Linux-based distributions, it can take very little effort to understand how a Linux operating system compares with other computer systems that you may already be familiar with.
+You will find that Ubuntu MATE is more similar than different.
+This documentation is designed to help demystify Ubuntu MATE for new-comers and provide a reference for all users.
+This guide has several sections, each of which has additional detail.
+Click on any link to explore a topic that interests you.
+You can always come back to this page or simply continue to explore and learn about Ubuntu MATE and its applications. 
+
+[[_modern]]
+=== Modern and Full-Featured
+
+Ubuntu MATE is a free, full-featured, and modern computer operating system, with an attractive and easy to understand user interface.
+Its update manager keeps both the operating system itself and all of its installed applications updated to the most current, most secure release.
+The operating system is more secure and better-supported than operating systems that come pre-installed on most home computer hardware today.
+With modest hardware requirements, Ubuntu MATE is suitable for modern workstations, single board computers and older hardware alike.
+Ubuntu MATE makes modern computers fast and old computers usable. 
+
+[[_flexible]]
+=== Pre-Configured Yet Flexible
+
+Using Ubuntu MATE provides you with the freedom to run a complete, full-featured operating system, pre-configured with most, if not all, of the applications you will need for your daily computing -- or to change anything about the way it looks, the way it works, or the applications it runs to suit your taste. 
+
+[[_security]]
+=== Built-In Security
+
+Ubuntu MATE is designed with security in mind.
+Unlike operating systems that update only once a month, Ubuntu MATE receives updates continuously.
+The updates include security patches for Ubuntu MATE and all of its components.
+Security updates for all of its installed applications are also provided on the same schedule.
+This ensures that you have the latest protection for all of your computer's software -- as soon as it's available! 
+
+
+image:figures/XPS13.png[]
+
+
+[[_page.linux]]
+== So You've Discovered Linux!
+
+image:apps/tux_small.png[] Once you become aware that there is dependable, secure, capable, and modern software to run your computer that rivals all others in popularity and actual use, you will want to try the https://en.wikipedia.org/wiki/Linux[Linux] operating system.
+Perhaps you've been using a member of the Unix/Linux family - Linux, Android, ChromeOS, BSD or even macOS - for quite a while.
+If so, you are likely looking for new ways to optimize your technology for the way you work. 
+
+You've likely switched to Linux to be able to use software that is like your previous computer's software, only better.
+By "better" you probably mean: a modern but familiar user experience design, easy to understand and use, designed with security built-in, and with protection from viruses and spyware included.
+You want all of that included and upgradeable at no additional charge.
+You want it all to "just work" with minimal or no maintenance -- automatic security updates and software upgrades for both the operating system and all of your installed applications.
+You don't mind paying for software, but you prefer the "try before you buy" philosophy.
+Ubuntu MATE gives you all of that and more! 
+
+While it's is great for users who have migrated from Windows or macOS, Ubuntu MATE is also an excellent choice for any kind of computer user, from casual home user to professional software developer.
+That's because of its modern, functionally thought-out design.
+Ubuntu MATE is capable enough for even the most experienced computer user because, well, it's Linux! It has the power of every other Linux built-in.
+Simply put, it provides a practical alternative to other software that can run on your computer. 
+
+With that in mind, this guide is written from the perspective that Ubuntu MATE is a typical modern Linux for the average computer user.
+Let's assume that our fictional "average user" is someone who needs to browse the Internet, check email, use a text editor or word processor, and maybe read and store document files.
+Let's also include viewing and editing photos, watching videos, listening to music, and subscribing to podcasts.
+Whether you are new to Linux, upgrading from Windows or macOS to Linux, or just thinking about moving to Linux, this documentation will provide you with practical, day-to-day guidance on how you can use Ubuntu MATE and its applications.
+This is a guide for new users and a reference for all users of Linux. 
+
+[[_windows]]
+=== Why Users Switch from Windows
+
+In addition to common and well-founded concerns around security, we often receive questions and comments from Windows users who have become more and more dissatisfied with Microsoft's operating system.
+It seems that after purchasing and installing a new version, or more likely purchasing a new computer with the upgraded operating system pre-installed, those users are finding that they have to repurchase newer versions of the same software applications they already own, just to have them work with the upgraded version of Windows.
+Switching to online, cloud-based software applications might at first seem to be a practical alternative, but those applications are often less capable and at least as expensive, especially after a year or more of paying monthly subscription fees.
+To add insult to injury, Windows users sometimes also have to pay for new accessories like printers and document scanners to replace perfectly functioning older models that require software that is no longer compatible with the 'upgraded' version of the operating system.
+Because of all this, that promise of a 'free upgrade' from Windows 7 or 8 to Windows 10 has, in fact, turned out to be anything but free.
+In fact, it can be just as expensive as previous Windows upgrades have been. 
+
+[[_macos]]
+=== Why Users Switch from macOS
+
+Switching to Apple's macOS (formerly OSX) doesn't get you off of the treadmill of forking over more and more cash for software and hardware upgrades.
+If anything, it accelerates that treadmill.
+Apple's recent direction with its products seems to continue the trend of ever-more expensive products that eliminate as many of its printer, monitor, keyboard, mouse, and other accessory ports as possible.
+Expensive dongles and adapters must be moneymakers for Apple.
+They've also been sealing shut the computer's case on newer models, eliminating the possibility of replacing or upgrading on your own simple things like RAM, hard drives, and broken parts. 
+
+[[_works]]
+=== Ubuntu MATE Works for You, Not the Other Way Around
+
+Neither Microsoft nor Apple will let you upgrade that perfectly-functioning computer hardware you purchased a few years ago, even though it has almost the same specs as the newest computers available today.
+You are told it 'isn't capable' of running modern software.
+Insultingly, your Windows computer that is supposedly incapable of running more modern software keeps trying to force you to upgrade to the incompatible version! Perhaps you'd rather learn how to optimize Linux than hunt down one more Windows hack or workaround to prevent your computer from doing the things it wants to do -- but you don't want it to be doing.
+Maybe you just want to use your computer to get things done.
+Maybe you believe your computer should be doing work for you, and not the other way around.
+Ubuntu MATE is designed to make all of that a reality! 
+
+[[_page.ubuntu]]
+== Ubuntu
+
+image:apps/ubuntu.png[] Ubuntu MATE is created from http://www.ubuntu.com/[Ubuntu], one of, if not the, largest deployed https://en.wikipedia.org/wiki/Linux[Linux]-based desktop operating systems in the world.
+Linux is at the heart of Ubuntu and makes it possible to create secure, powerful and versatile operating systems, such as Ubuntu and Android.
+Android is now in the hands of billions of people around the world and it`'s also powered by Linux. 
+
+Ubuntu is developed by Canonical, Ltd.
+and is available in a number of different flavors, each coming with its own desktop environment.
+Started as a community-developed project, Ubuntu MATE takes the Ubuntu base operating system and adds the http://mate-desktop.org/[MATE Desktop].
+Today, Ubuntu MATE is an official flavor of Ubuntu Linux. 
+
+.Ubuntu
+[TIP]
+====
+The name "[app]``Ubuntu``" is pronounced __oǒ'boǒntoō__.
+According to https://www.ubuntu.com/about/about-ubuntu[The Ubuntu Story], "Ubuntu is an ancient African word meaning 'humanity to others'. It also means 'I am what I am because of who we all are'. The Ubuntu operating system brings the spirit of Ubuntu to the world of computers." 
+====
+
+[[_page.mate_desktop]]
+== The MATE Desktop
+
+image:apps/mate.png[] Wikipedia says that a https://en.wikipedia.org/wiki/Desktop_environment[Desktop Environment] is: 
+
+____
+Wikipedia (20 Nov 2017) 
+...an implementation of the desktop metaphor made of a bundle of programs running on top of a computer operating system, which share a common graphical user interface (GUI)... Desktop GUIs help the user to easily access and edit files...
+____
+
+The MATE Desktop is an example of such a desktop environment.
+It includes a file manager which can connect you to your local and networked files, a text editor, archive manager, image viewer, document viewer, system monitor, and terminal.
+All of these are highly customizable and managed via a control center.
+You can find complete documentation for the MATE Desktop Environment and its applications in the link:ghelp:/usr/share/help/C/mate-user-guide/index.docbook[MATE Desktop User Guide.]
+
+The MATE Desktop provides an intuitive and attractive desktop environment using traditional metaphors like "window" and "desktop". That means, if you've ever used https://www.microsoft.com/windows/[Microsoft Windows] or https://www.apple.com/mac/[Apple macOS], the MATE Desktop will feel very familiar. 
+
+The MATE Desktop has a rich history and is the continuation of the GNOME2 desktop, which was the default desktop environment on many Linux and Unix operating systems for over a decade.
+This means that MATE Desktop is tried, tested, and very reliable. 
+
+.MATE
+[TIP]
+====
+The name "[app]``MATE``" is pronounced __Ma-Tay__.
+It comes from the https://en.wikipedia.org/wiki/Yerba_mate[yerba maté] plant, native to South America. 
+====
+
+[[_page.open_source]]
+== Open Source
+
+image:apps/osi.png[] What Linux, Ubuntu, and MATE Desktop all have in common is they are Open Source.
+Open source software is software that can be freely used, changed, and shared (in modified or unmodified form) by anyone.
+In a nutshell, Ubuntu MATE is free, in the truest sense of the word. 
+
+Although you will find some versions (distributions) of Linux for purchase, the vast majority are provided free of charge, like Ubuntu MATE.
+Open Source software is licensed in a way that allows anyone to give it away for free, no strings attached.
+For example, the license gives any member of the user community the freedom to use Linux for any purpose, to distribute, modify, redistribute, or even sell the operating system.
+If you do modify and then redistribute Linux with your modifications, you are required by the license to submit your modifications for possible inclusion into future versions.
+There is no guarantee that this will ever happen, but if you have made it better, then your changes just might be included in the next release of Ubuntu MATE. 
+
+This is how we can continually improve and grow without having to charge our users money.
+Many of the users of Linux are corporations that use the operating system to run their businesses or include it in their products.
+Many of these corporations provide fixes and new features for Linux as they use the software for their businesses. https://www.linux.com/infographic/25-years-linux-kernel-development[These improvements are given back] to the Linux distribution and the software improves as a result. 
+
+Unlike Windows and macOS, Linux is not created and supported by just one company.
+It is supported by Intel, Redhat, Linaro, Samsung, IBM, SUSE, Texas Instruments, Google, Canonical, Oracle, AMD, and Microsoft.
+Over 4,000 developers contributed to Linux over the last 15 years. 
+
+Whether you are a home user of Ubuntu MATE, an Ubuntu MATE software or application developer, or an employee of an organization that uses the operating system, you are a member of the Linux and Open Source communities and benefit from the efforts of the developers who contribute to Ubuntu MATE and its related projects, Linux, MATE, and Ubuntu.
+Members of the community can and do run Linux on almost any hardware, from the prettiest Macbook to the cheapest netbook, from the newest Chromebook to some very old machines designed for Windows, and from the most powerful Internet servers to the smallest smart thermostat. 
+
+[[_page.mate_apps]]
+== • • • MATE'S APPLICATIONS • • •
+
+image:apps/mate.png[] The MATE Desktop provides you with essential features that you'd expect in a computer desktop environment, including some basic applications and utilities, all of which are highly customizable and managed by the Control Center: 
+
+* <<_page.caja>> Organize files and folders, both on your computer and online.
+* <<_page.pluma>> Create and edit text files.
+* <<_page.calculator>> A simple calculator with some advanced features.
+* <<_page.engrampa>> Create, view, modify, or unpack zipped files or compressed archive files.
+* <<_page.eom>> View single photos or image files, as well as large image collections.
+* <<_page.atril>> View documents of various formats like Portable Document Format (PDF) files, PostScript files, and e-book (EPUB) files.
+* <<_page.baobab>> MATE's disk usage analyzer.
+* <<_page.system_monitor>> Display basic system information and monitor system processes, usage of system resources and file systems, and modify the behavior of your system.
+* <<_page.terminal>> Access a UNIX shell in the MATE environment and type commands at a command line prompt.
+* <<_page.control_center>> A single window from which to launch all of the MATE preference tools.
+
+[[_page.caja]]
+== File Browser (Caja)
+
+image:apps/file-manager.png[] The [app]``Caja`` application, found in the Ubuntu MATE menus at ``Menu`` > ``System Tools`` > ``Caja``, lets you organize and manage files and folders, both on your computer and on a home network.
+In Ubuntu MATE many things are files, such as word processor documents, spreadsheets, photos, movies, and music. [app]``Caja`` lets you manage them all. 
+
+.Note
+[NOTE]
+====
+Your first Ubuntu MATE menu choice depends on which of the <<_personalization_panel_layouts>> you have selected. 
+
+If you chose the default <<_panel_layouts_familiar>>, the first menu item is ``Menu``.
+It is also the first menu item for <<_panel_layouts_contemporary>>, <<_panel_layouts_redmond>>, and <<_panel_layouts_pantheon>>. ``Applications`` is the first item for the <<_panel_layouts_traditional>>.
+The <<_panel_layouts_netbook>>, <<_panel_layouts_mutiny>> and <<_panel_layouts_cupertino>> have no label and simply display the Ubuntu MATE logo to represent the menu. 
+====
+
+Using the file manager you can do the following: 
+
+* Create documents and folders.
+* Display files and folders.
+* Search for and manage your files.
+* Run scripts and launch applications.
+* Open special locations on your computer.
+* Write data to a CD or DVD.
+* Install and remove fonts.
+
+
+Like file managers in other operating systems (Apple calls their file manager "the finder") [app]``Caja`` lets you organize your files into folders.
+Folders can contain files and even other folders.
+Some people find that organizing files into folders can help them locate their files more easily. 
+
+image::figures/caja.png[]
+
+Ubuntu MATE allows more than one user to login to the same computer.
+Each user has a personal Home folder that is labeled with the username chosen during setup.
+In the illustration, the username and the name of the Home folder is ubuntu.
+The folder that is actually labeled home contains the personal Home folders for all users setup on your computer.
+Normally, there is just one user (you) and so the home folder contains only your own personal Home folder. 
+
+By default, your personal Home folder contains several folders (sub-folders) and any files that you create.
+Viewed from the [app]``Caja`` file manager, Desktop is just another folder in your personal Home folder that can, itself, contain folders and files.
+When viewing the desktop showing your background wallpaper, Desktop can display special icons that allow easy access to your personal Home folder, Trash, and removable media such as CDs, USB flash drives, and (if your computer is old enough) floppy disks.
+See how to enable these special desktop icons in the section <<_personalization_desktop_icons>>. 
+
+The [app]``Caja`` file manager is always running while you are using the MATE desktop environment.
+To open a new [app]``Caja`` window, double-click on an icon on the desktop such as Home or Computer, or choose the application from the menu at menu:Menu[System Tools > Caja]. 
+
+The file manager window is a file browser of sorts.
+Double-clicking the icon for a file opens the file in the [app]``Caja`` software application that lets you view and/or edit the document.
+Opening a folder by double-clicking on its icon updates the current file manager window to show the contents of the opened folder.
+You can also open a folder by right-clicking on that folder, then choosing between ``Open`` (this is the same as simply double-clicking the folder), ``Open in a New Tab``, or ``Open in a New Window``.
+
+In addition to the folder contents, the browser window displays a toolbar with common actions and locations, a location bar that shows the current location in the hierarchy of folders, and a sidebar that can hold different kinds of information. 
+
+.Caja
+[TIP]
+====
+For more information about how you can use [app]``Caja`` and the various preferences that you can set, see the link:ghelp:/usr/share/help/C/mate-user-guide/goscaja.xml[Caja manual] (Desktop User Guide) by pressing [F1] while [app]``Caja`` is open. 
+====
+
+[[_page.pluma]]
+== Text Editor (Pluma)
+
+image:apps/text-editor.png[] The [app]``Pluma`` text editor, found in the Ubuntu MATE menus at menu:Menu[Accessories > Pluma Text Editor], enables you to create and edit text files.
+The aim of [app]``Pluma`` is to be a simple and easy to use text editor.
+You can enable more powerful features with different plug-ins, allowing a variety of tasks related to text-editing. 
+
+image::figures/pluma.png[]
+
+.Note
+[NOTE]
+====
+Your first Ubuntu MATE menu choice depends on which of the <<_personalization_panel_layouts>> you have selected. 
+
+If you chose the default <<_panel_layouts_familiar>>, the first menu item is *_Menu_*.
+It is also the first menu item for <<_panel_layouts_contemporary>>, <<_panel_layouts_redmond>>, and <<_panel_layouts_pantheon>>. *_Applications_* is the first item for the <<_panel_layouts_traditional>>.
+The <<_panel_layouts_netbook>>, <<_panel_layouts_mutiny>> and <<_panel_layouts_cupertino>> have no label and simply display the Ubuntu MATE logo to represent the menu. 
+====
+
+The [app]``Pluma`` window contains the elements listed in the sections below. 
+
+.Pluma
+[TIP]
+====
+For help topics on this application, see the link:ghelp:/usr/share/help/C/pluma/index.docbook[Pluma manual] by pressing [F1] while [app]``Pluma`` is open. 
+====
+
+[[_pluma_menu_bar]]
+=== Menu Bar
+
+The menus on the menubar contain all of the commands you need to work with files in [app]``Pluma``.
+Note, if you have chosen a layout that uses the Global Menu, the menubar items will be displayed in the Global Menu rather than within the [app]``Pluma`` window. 
+
+[[_pluma_toolbar]]
+=== Toolbar
+
+The toolbar contains icon buttons that represent a subset of the commands that you can access from the menubar. 
+
+[[_pluma_display]]
+=== Display Area
+
+The display area is where the text of the file you are editing is displayed. 
+
+[[_pluma_status_bar]]
+=== Status Bar
+
+The status bar is at the bottom of the window and displays information about how you are using [app]``Pluma``.
+The status bar display includes the following information: Cursor position is the line number and column number where the cursor is located.
+Edit mode is changed using the [Insert] key on your keyboard.
+If the editor is in insert mode, the status bar contains the text "INS." If the editor is in overwrite mode, the status bar contains the text "OVR." 
+
+[[_pluma_side_pane]]
+=== Side Pane
+
+By default, the side pane is not shown.
+To show it, choose menu:View[Side Pane].
+The side pane displays a list of open documents and other information depending on which plugins are enabled. 
+
+[[_pluma_bottom_pane]]
+=== Bottom Pane
+
+The bottom pane is used by programming tools such as the [app]``Python Console`` plugin to display output.
+By default, the bottom pane is not shown.
+To show it, choose menu:View[Bottom Pane].
+When you right-click in the [app]``Pluma`` window, a popup menu appears containing the most common text editing commands.
+Like other MATE applications, actions in [app]``Pluma`` can be performed with the menu, with the toolbar, or with keyboard shortcuts.
+See the section <<_page.shortcuts>> for a list of common keyboard shortcuts. 
+
+[[_pluma_new_doc]]
+=== Creating a New Document
+
+To create a new document, choose menu:File[New]. [app]``Pluma`` displays a new blank document in the display area. 
+
+[[_pluma_open_doc]]
+=== Open a File
+
+If you have the [app]``Caja`` file manager open and you can see your file, simply double-click it, otherwise, to open a file, choose menu:File[Open] to display the "Open File" dialog.
+Navigate to the folder that contains your file, then select the file that you want to open and click [Open].
+The file is displayed in the [app]``Pluma`` window.
+You can open multiple files in [app]``Pluma``.
+The application adds a tab for each open file to the window above the display area. 
+
+[[_pluma_save_doc]]
+=== Save a File
+
+To save changes to a file you have opened and/or already saved, choose menu:File[Save].
+To save a new file or to save an existing file under a new filename, choose menu:File[Save As].
+Enter a name for your file and click *Save*.
+To save all of the files that are currently open in [app]``Pluma``, choose menu:Documents[Save All].
+To close all of the files that are currently open in [app]``Pluma``, choose menu:Documents[Close All].
+If you have any open files with unsaved edits, you will be prompted to save them before that file is closed. 
+
+[[_page.calculator]]
+== MATE Calculator
+
+image:apps/calculator.png[] The [app]``MATE Calculator`` application can be found in the Ubuntu MATE menus at menu:Menu[Accessories > MATE Calculator].
+It is a calculator with ordinary notation/reverse polish notation (RPN), a formula entry mode, different number bases (DEC, HEX, OCT, BIN) and different units of angular measure (DEG, RAD, GRAD). It supports quad-precision floating point and 112-bit binary arithmetic. 
+
+.Note
+[NOTE]
+====
+Your first Ubuntu MATE menu choice depends on which of the <<_personalization_panel_layouts>> you have selected. 
+
+If you chose the default <<_panel_layouts_familiar>>, the first menu item is ``Menu``.
+It is also the first menu item for <<_panel_layouts_contemporary>>, <<_panel_layouts_redmond>>, and <<_panel_layouts_pantheon>>. menu:Applications[] is the first item for the <<_panel_layouts_traditional>>.
+The <<_panel_layouts_netbook>>, <<_panel_layouts_mutiny>> and <<_panel_layouts_cupertino>> have no label and simply display the Ubuntu MATE logo to represent the menu. 
+====
+
+[app]``MATE Calculator`` has four modes: Basic, Advanced, Financial and Programming.
+The Advanced mode is shown, below. 
+
+[cols="1", frame="all"]
+|===
+
+|
+
+
+image::figures/MATE_calculator.png[]
+
+|===
+
+.Calculator
+[TIP]
+====
+For help topics on this application, see the link:ghelp:/usr/share/help/C/mate-calc/index.page[MATE Calculator manual] by pressing [F1] while [app]``MATE Calculator`` is open.
+Topics include user interface, equations, number formats, conversions and financial calculations. 
+====
+
+[[_page.engrampa]]
+== Archive Manager (Engrampa)
+
+image:apps/engrampa.png[] You can use the [app]``Engrampa Archive Manager`` application, found in the Ubuntu MATE menus at menu:Menu[Accessories > Engrampa Archive Manager], to create, view, modify, or unpack an archive.
+An archive is a file that acts as a container for other files.
+Sometimes referred to generically as a "zipped file" or a "compressed file," an archive can contain many files, folders, and subfolders, usually in compressed form. 
+
+.Note
+[NOTE]
+====
+Your first Ubuntu MATE menu choice depends on which of the <<_personalization_panel_layouts>> you have selected. 
+
+If you chose the default <<_panel_layouts_familiar>>, the first menu item is ``Menu``.
+It is also the first menu item for <<_panel_layouts_contemporary>>, <<_panel_layouts_redmond>>, and <<_panel_layouts_pantheon>>. menu:Applications[] is the first item for the <<_panel_layouts_traditional>>.
+The <<_panel_layouts_netbook>>, <<_panel_layouts_mutiny>> and <<_panel_layouts_cupertino>> have no label and simply display the Ubuntu MATE logo to represent the menu. 
+====
+
+The most common archive format on UNIX and Linux systems is the tar archive compressed with a file name ending in "tar.gz" or "tar.bz." The most common archive format on Windows systems is the archive created with applications that generate archives with a file name ending with the ".zip" extension. [app]``Archive Manager`` supports all of these formats, and if you have the appropriate command-line tools installed, it will support many more. 
+
+The [app]``Archive Manager`` window contains the elements listed in the sections below. 
+
+.Archive Manager
+[TIP]
+====
+For help topics on this application, see the link:ghelp:/usr/share/help/C/engrampa/index.docbook[Archive Manager manual] by pressing [F1] while [app]Archive Manager`` is open. 
+====
+
+[[_engrampa_menu_bar]]
+=== Menu Bar
+
+The menus on the menubar contain all of the commands you need to work with files in [app]``Archive Manager``.
+Note that if you have chosen a layout that uses the Global Menu, the menubar items will be displayed in the Global Menu rather than within the [app]``Archive Manager`` window. 
+
+[[_engrampa_toolbar]]
+=== Toolbar
+
+The toolbar contains icon buttons that represent a subset of the commands that you can access from the menubar. 
+
+[[_engrampa_using]]
+=== Using Archive Manager
+
+To create a new archive file, you can choose 
+*_Open_* from the menu, click and drag one or more files or folders from the [app]``Caja File Browser`` window into the [app]``Archive Manager`` window, or right-click one or more files in [app]``Caja`` and select *_Compress_*
+ from the menu. 
+
+To expand a compressed file's contents, you start by opening the archive by double-clicking it in the [app]``File Browser``.
+Next, you can choose one or more files in the [app]``Archive Manager`` window and either choose *_Extract_*
+ from the menu or drag them to the desktop or other location where you want the files to end up. 
+
+[[_page.eom]]
+== Image Viewer (Eye of MATE)
+
+image:apps/eom.png[] The [app]``Eye of MATE Image Viewer`` application, found in the Ubuntu MATE menus at ``Menu`` > ``Graphics`` > ``Eye of MATE Image Viewer``, enables you to view single image files, as well as large image collections. 
+
+.Note
+[NOTE]
+====
+Your first Ubuntu MATE menu choice depends on which of the <<_personalization_panel_layouts>> you have selected. 
+
+If you chose the default <<_panel_layouts_familiar>>, the first menu item is ``Menu``.
+It is also the first menu item for <<_panel_layouts_contemporary>>, <<_panel_layouts_redmond>>, and <<_panel_layouts_pantheon>>. ``Applications`` is the first item for the <<_panel_layouts_traditional>>.
+The <<_panel_layouts_netbook>>, <<_panel_layouts_mutiny>> and <<_panel_layouts_cupertino>> have no label and simply display the Ubuntu MATE logo to represent the menu. 
+====
+
+The [app]``Image Viewer`` can open a wide variety of image file formats including animated graphics (ANI), bitmaps (BMP, PNG, ICO, PCX, WBMP, XBM, XPM), vector graphics (SVG), and other popular formats like JPEG, GIF, TIFF, and more.
+Files can be saved in BMP, ICO, JPEG and PNG formats. 
+
+The [app]``Image Viewer`` window contains the elements listed in the sections below. 
+
+.Image Viewer
+[TIP]
+====
+For help topics on this application, see the link:ghelp:/usr/share/help/C/eom/index.docbook[Image Viewer manual] by pressing [F1] while [app]``Image Viewer`` is open. 
+====
+
+[[_eom_menubar]]
+=== Menu Bar
+
+The menus on the menubar contain all of the commands you need to work with images in [app]``Image Viewer``.
+Note, if you have chosen a layout that uses the Global Menu, the menubar will be displayed in the Global Menu rather than in the [app]``Image Viewer`` window. 
+
+[[_eom_toolbar]]
+=== Toolbar
+
+The toolbar contains icon buttons that represent a subset of the commands that you can access from the menubar. 
+
+[[_eom_using]]
+=== Using Image Viewer
+
+[app]``Image Viewer`` has features to help you view your images.
+You can zoom in and out or view the image full-screen.
+You can rotate and flip the image you are viewing. 
+
+The collection view allows you to view and edit large image collections.
+In this view, image operations can be applied to all selected images at once. 
+
+[app]``Image Viewer`` has special support for digital camera pictures and displays EXIF metadata recorded with the image.
+All modifications made in JPEG images are lossless.
+That is, saving rotated and flipped JPEG images will not recompress the image.
+Besides this, all available metadata (like EXIF) will be preserved and updated accordingly. 
+
+[cols="1", frame="all"]
+|===
+
+|
+
+
+image::figures/exif-data.png[]
+
+|===
+
+[[_page.atril]]
+== Document Viewer (Atril)
+
+image:apps/atril.png[] The [app]``Atril Document Viewer``, found in the Ubuntu MATE menus at menu:Menu[Office > Atril Document Viewer], enables you to view documents of various formats like Portable Document Format (PDF) files, PostScript files, and e-book (EPUB) files. 
+
+.Note
+[NOTE]
+====
+Your first Ubuntu MATE menu choice depends on which of the <<_personalization_panel_layouts>> you have selected. 
+
+If you chose the default <<_panel_layouts_familiar>>, the first menu item is ``Menu``.
+It is also the first menu item for <<_panel_layouts_contemporary>>, <<_panel_layouts_redmond>>, and <<_panel_layouts_pantheon>>. menu:Applications[] is the first item for the <<_panel_layouts_traditional>>.
+The <<_panel_layouts_netbook>>, <<_panel_layouts_mutiny>> and <<_panel_layouts_cupertino>> have no label and simply display the Ubuntu MATE logo to represent the menu. 
+====
+
+You can open the [app]``Atril Document Viewer`` from the menus, or more simply by double-clicking on the file you want to open in the [app]``Caja`` file manager.
+To zoom in and out, you can use the keyboard shortcuts [Ctrl] + [+] (the plus key) and [Ctrl] + [-] (the minus key). You can also hold the [Ctrl] key while scrolling the mouse wheel, or you can use the on-screen button to select from some preset zoom levels including [Fit Page Width] and [Best Fit] among others. 
+
+
+image::figures/atril_document_viewer.png[]
+
+
+
+The [app]``Document Viewer`` window contains the elements listed in the sections below. 
+
+.Atril
+[TIP]
+====
+For help topics on this application, see the link:ghelp:/usr/share/help/C/atril/index.docbook[Atril Document Viewer manual] by pressing [F1] while [app]``Document Viewer`` is open.
+Topics include printing, copying, and working with password-protected documents. 
+====
+
+[[_atril_menu_bar]]
+=== Menu Bar
+
+The menus on the menubar contain all of the commands you need to work with documents in [app]``Atril``.
+Note, if you have chosen a layout that uses the Global Menu, the menubar items will be displayed in the Global Menu rather than within the [app]``Document Viewer`` window. 
+
+[[_atril_toolbar]]
+=== Toolbar
+
+The toolbar contains icon buttons that let you navigate the document by page and change the zoom factor. 
+
+[[_atril_navigation_pane]]
+=== Left Navigation Pane
+
+Depending on the type of file you are opening, the left pane of the [app]``Atril`` window may show an index, bookmarks, an outline, or annotations.
+Clicking the header lets you switch between them.
+You can navigate the document page by page, by scrolling with your mouse, or by using the left pane to jump to a topic. 
+
+[[_page.baobab]]
+== MATE Disk Usage Analyzer (Baobab)
+
+image:apps/disk-usage-analyzer.png[] The [app]``MATE Disk Usage Analyzer``, found at menu:Menu[System Tools > MATE Disk Usage Analyzer], is a graphical tool for analyzing how your storage media is being used.
+It can scan the entire file system on a disk or in a specific folder.
+It provides a graphical treemap window for each selected disk or folder. 
+
+.Note
+[NOTE]
+====
+Your first Ubuntu MATE menu choice depends on which of the <<_personalization_panel_layouts>> you have selected. 
+
+If you chose the default <<_panel_layouts_familiar>>, the first menu item is ``Menu``.
+It is also the first menu item for <<_panel_layouts_contemporary>>, <<_panel_layouts_redmond>>, and <<_panel_layouts_pantheon>>. menu:Applications[] is the first item for the <<_panel_layouts_traditional>>.
+The <<_panel_layouts_netbook>>, <<_panel_layouts_mutiny>> and <<_panel_layouts_cupertino>> have no label and simply display the Ubuntu MATE logo to represent the menu. 
+====
+
+[cols="1", frame="all"]
+|===
+
+|
+
+
+image::figures/disk-usage.png[]
+
+|===
+
+
+The [app]``Disk Usage Analyzer`` window contains the elements listed in the sections below. 
+
+.Disk Usage Analyzer
+[TIP]
+====
+For help topics on this application, see the link:ghelp:/usr/share/help/C/mate-disk-usage-analyzer/index.docbook[MATE Disk Usage Analyzer manual] by pressing [F1] while [app]``Disk Usage Analyzer`` is open. 
+====
+
+[[_baobab_menu_bar]]
+=== Menu Bar
+
+The menus on the menubar contain all of the commands you need to work with the disks and file system in [app]``MATE Disk Usage Analyzer``.
+Note, if you have chosen a layout that uses the Global Menu, the menubar items will be displayed in the Global Menu rather than within the [app]``MATE Disk Usage Analyzer`` window. 
+
+[[_baobab_toolbar]]
+=== Toolbar
+
+The toolbar contains icon buttons that represent a subset of the commands that you can access from the menubar. 
+
+[[_page.system_monitor]]
+== MATE System Monitor
+
+image:apps/system-monitor.png[] The [app]``MATE System Monitor``, found in the Ubuntu MATE menus at menu:Menu[System Tools > MATE System Monitor], enables you to display basic system information and monitor system processes, usage of system resources, and file system usage.
+You can also use [app]``MATE System Monitor`` to modify the behavior of your system. 
+
+.Note
+[NOTE]
+====
+Your first Ubuntu MATE menu choice depends on which of the <<_personalization_panel_layouts>> you have selected. 
+
+If you chose the default <<_panel_layouts_familiar>>, the first menu item is ``Menu``.
+It is also the first menu item for <<_panel_layouts_contemporary>>, <<_panel_layouts_redmond>>, and <<_panel_layouts_pantheon>>. menu:Applications[] is the first item for the <<_panel_layouts_traditional>>.
+The <<_panel_layouts_netbook>>, <<_panel_layouts_mutiny>> and <<_panel_layouts_cupertino>> have no label and simply display the Ubuntu MATE logo to represent the menu. 
+====
+
+[cols="1", frame="all"]
+|===
+
+|
+
+
+image::figures/sysmon_system.png[]
+
+|===
+
+
+The [label]#System# tab shows information about the computer's hardware and software, as shown above.
+The [label]#Processes# tab, shown below, shows information about active processes (applications, utilities, etc.) and how they relate to each other.
+You can stop, end, or kill a process or otherwise control active processes. 
+
+[cols="1", frame="all"]
+|===
+
+|
+
+
+image::figures/sysmon_processes.png[]
+
+|===
+
+
+The [label]#Resources# tab displays current CPU, memory, and network usage. menu:File Systems[] lists all mounted file systems and basic information about each. 
+
+.System Monitor
+[TIP]
+====
+For help topics on this application, see the link:ghelp:/usr/share/help/C/mate-system-monitor/index.docbook[MATE System Monitor manual] by pressing [F1] while MATE System Monitor is open. 
+====
+
+[[_page.terminal]]
+== MATE Terminal
+
+image:apps/terminal.png[][app]``MATE Terminal`` is a terminal emulation application that can be found in the Ubuntu MATE menus at menu:Menu[System Tools > MATE Terminal].
+It provides access to the powerful Linux command line and interprets and executes the commands that you type at a command-line prompt. 
+
+.Note
+[NOTE]
+====
+Your first Ubuntu MATE menu choice depends on which of the <<_personalization_panel_layouts>> you have selected. 
+
+If you chose the default <<_panel_layouts_familiar>>, the first menu item is ``Menu``.
+It is also the first menu item for <<_panel_layouts_contemporary>>, <<_panel_layouts_redmond>>, and <<_panel_layouts_pantheon>>. menu:Applications[] is the first item for the <<_panel_layouts_traditional>>.
+The <<_panel_layouts_netbook>>, <<_panel_layouts_mutiny>> and <<_panel_layouts_cupertino>> have no label and simply display the Ubuntu MATE logo to represent the menu. 
+====
+
+You don't need to know how to use the command line to use today's modern Linux distributions, but understanding the basics can help you simplify some tasks with single-line commands, automate repetitive tasks with simple scripts, and use additional features not available in graphical versions of applications. 
+
+Although the [app]``MATE Terminal`` can be used to launch graphical applications by simply typing the name of the application and pressing the [Enter] key, you normally use it to run applications that are not designed to be run as graphical applications.
+These text-based applications, known as command-line programs, can be used to create scripts and other programs, get and install additional software from the software catalog, check the status of your computer's hardware and installed software, and many, many other things.
+In fact, years before graphical applications were made popular for computing, computer users checked email, communicated with other computers, shared files, photos, and programs, and even browsed early versions of the Internet from terminal applications very similar to the [app]``MATE Terminal``. 
+
+[[_terminal_example]]
+=== Example: Installing Applications Using the Command Line
+
+As an example of how to use the command line, let's look at the [app]``apt`` application.
+It is a powerful command-line tool which can be used to install new software packages, upgrade existing software packages, update the package list index, and even upgrade the entire Ubuntu MATE system. 
+
+.Note
+[NOTE]
+====
+For additional information about the [app]``apt`` application, type the following in a terminal window: 
+
+----
+
+man apt
+----
+====
+
+It's good practice to ensure that you have the latest changes made in the Ubuntu software repositories before installing software.
+The apt command can be used to update the index of available software packages that are on your computer.
+To do this, type the following in the terminal window: 
+
+----
+
+sudo apt update
+----
+
+.Note
+[NOTE]
+====
+When you use "sudo" you are telling Linux that you want to run the command as administrator, so for security purposes, you will be asked for your password the first time you use "sudo" in a terminal session. 
+
+Also, note that what you type in the terminal is case-sensitive.
+"Install" is not the same as "install." As far as the terminal is concerned, they are two entirely different words. 
+====
+
+Installing software using the apt tool is quite simple, provided you know the name of the application, and provided it is available in the software catalog.
+For example, to install the audio recording and editing application [app]``Audacity``, type the following into a terminal window at the command prompt: 
+
+----
+
+sudo apt install audacity
+----
+
+To uninstall (remove) an application is just as easy.
+To remove the [app]``Audacity`` application installed in the previous example, type the following: 
+
+----
+
+sudo apt remove audacity
+----
+
+Adding the "--purge" option to "apt remove" will remove the package configuration files as well.
+This may or may not do what you want, so use it with caution.
+Here's how that looks using our same example: 
+
+----
+
+sudo apt remove --purge audacity
+----
+
+Over time, updated versions of packages currently installed on your computer may become available from the package repositories.
+To use the command line to upgrade the applications on your system, first update the package index: 
+
+----
+
+sudo apt update
+----
+
+When that command has finished running, type the following to complete the upgrade: 
+
+----
+
+sudo apt upgrade
+----
+
+[[_terminal_sys_info]]
+=== Display Your System Info Using The Command Line
+
+Possibly the easiest command to use in the terminal to get a full listing of your computer's configuration is 
+
+----
+
+inxi -F
+----
+
+as shown below.
+For a more verbose set of information, use 
+
+----
+
+inxi -Frmxx
+----
+
+For just the very basic info, type simply 
+
+----
+
+inxi
+----
+
+[cols="1", frame="all"]
+|===
+
+|
+
+
+image::figures/inxi.gif[]
+
+|===
+
+
+You can also type the "list hardware" command, [app]``lshw``, at the command line without any switches or options, but the text file it generates runs on forever and is a little difficult to follow in the terminal.
+It needs to run as root (administrator), so you'll need to type "sudo" in front of the command.
+The command listed below runs lshw with the -html option to create an html file.
+Open it in a browser and you have a nice "web page" with all of your hardware specs. 
+
+----
+
+sudo lshw -html>myhardware.html
+----
+
+When you run this command, it can detect and report on your touchscreen, if you have one, attached USB storage drives, and even the micro-SD card on a mobile phone if you have one charging on a USB port! 
+
+.Note
+[NOTE]
+====
+How to use terminal and command-line programs is a topic that has been explored in many books.
+One popular and excellent book on this topic is https://www.amazon.com/dp/1593273894[The Linux Command Line: A Complete Introduction] by William E.
+Shotts Jr.
+Another source of information on using the terminal is the link:ghelp:/usr/share/help/C/mate-terminal/index.docbook[MATE Terminal] manual contained within the MATE Desktop User Guide.
+It's provided with Ubuntu MATE.
+To go there directly, open the [app]``MATE Terminal`` application from the menu, then press the [F1] key on your keyboard to open the manual. 
+====
+
+[[_page.control_center]]
+== MATE Control Center
+
+image:apps/control-centre.png[] The [app]``Control Center`` provides you with a single window that houses all of the major Ubuntu MATE preference tools.
+These tools let you tweak the way things look and behave, manage software updates, and make adjustments to the printing system, among other things. 
+
+[cols="1", frame="all"]
+|===
+
+|
+
+
+image::figures/control_center.png[]
+
+|===
+
+
+Simply click the icon for the preference you want to adjust.
+Each of these preferences is also available under the menu:Menu[Preferences] menu.
+The preference items in the menu correspond to the items in the [app]``Control Center``. 
+
+You'll also find many of the settings and selections you can make from within the Ubuntu MATE [app]``Welcome`` application are also available in the [app]``Control Center``.
+The [app]``Control Center`` simply provides a central point from which you can adjust almost any system-level setting for your Ubuntu MATE computer. 
+
+.Control Center
+[TIP]
+====
+For more help on this application, see the Configuring Your Desktop <<_page.mate_desktop>> topic in the link:ghelp:/usr/share/help/C/mate-user-guide/index.docbook[MATE Desktop User Guide]. 
+====
+
+[[_page.applications]]
+== • • • UBUNTU MATE'S APPLICATIONS • • •
+
+image:apps/synaptic.png[] While the MATE Desktop provides the essential user applications and tools to control and use your computer, Ubuntu MATE adds a collection of additional applications to turn your computer into a truly powerful workstation.
+These additional applications include productivity and office applications, applications for managing the documents you create, entertainment and games, accessibility, and more.
+Naturally, you'll also find a firewall, a backup application, a document/photo scanner, printer management, and designed-in security, all included in Ubuntu MATE. 
+
+If that's not enough, Ubuntu MATE's [app]``Software Boutique`` and optional [app]``Software Centers`` provide searchable access to additional software choices from Ubuntu's repositories.
+The Ubuntu software repositories include thousands of applications in hundreds of categories, suitable for just about any professional or recreational pursuit, and the majority of them are free of charge. 
+
+[[_applications_welcome]]
+== Ubuntu MATE Welcome
+
+image:apps/system.png[] Developed by the Ubuntu MATE team, the Ubuntu MATE [app]``Welcome`` application is a utility that helps you to get comfortable with your new operating system.
+It guides you in a step-by-step fashion through post-install configuration such as installing drivers and adding language support. 
+
+image::figures/UbuntuMateWelcome.png[]
+
+[app]``
+Welcome`` introduces new users to the operating system, highlights key features of Ubuntu MATE, provides quick guidelines on getting started and displays the computer system's specifications. [app]``Welcome`` also introduces users to the Ubuntu MATE Community with links to the community forums, social networks, the Ubuntu MATE store with branded products for sale, and details on donating to the project. [app]``Welcome`` also includes access to the [app]``Software Boutique``.
+It is exactly the same [app]``Software Boutique`` available from the menus and is provided at startup for convenience. 
+
+[[_welcome_updates]]
+=== Getting Started: Updates and Extras
+
+One of the first things you will want to do after you install Ubuntu MATE for the first time, or after upgrading to a new release is to click on the [ Getting Started ]  button in the [app]``Welcome`` application and choose the [ Updates & Extras ]
+This walks you through some common post-installation configuration tasks like checking for updates, adding support for audio and video, and adding Blu-Ray and DVD playback support.
+It's organized in a step-by-step wizard so you don't miss anything -- and you can go back at any time to undo what you've done, or to find something you skipped. 
+
+image::figures/updates-extras.png[]
+
+Don't be surprised when you are asked for your password.
+You are performing updates and installing software.
+Ubuntu MATE is just keeping you safe.
+Clicking the [ Next ] button in the upper right of the window takes you to the next topic, [ Drivers ].
+
+[[_welcome_drivers]]
+=== Getting Started: Drivers
+
+Most drivers for Linux distributions like Ubuntu MATE are already provided as part of the Linux kernel.
+The kernel is the foundational part of the operating system that makes Linux Linux.
+While a wide range of hardware is compatible with Ubuntu MATE as a result, your computer hardware may include components and peripherals that require proprietary drivers to function properly.
+When you were installing Ubuntu MATE, you were asked if you wanted to download and use third-party software.
+If you ticked the checkbox to do that, clicking the [Additional Drivers] button reveals which, if any, proprietary drivers have already been installed and enabled for you.
+If you did not purchase your computer with Linux pre-installed, you may find that clicking [Install Firmware Package] is required to get some devices to work correctly. 
+
+image::figures/drivers.png[]
+
+
+The open source drivers for some proprietary devices, the ones provided in the kernel, are sometimes reverse-engineered.
+What that means is that the manufacturers of proprietary devices won't provide the specifications or the details of their own drivers to open source developers because they want to keep their "technology" secret.
+(Hence the term proprietary.) The developers of reverse-engineered drivers provided in Ubuntu MATE have made their best effort and have tested the functionality thoroughly, but sometimes there are features that could not be reproduced and are not provided in these drivers. 
+
+Sometimes, though, manufacturers of proprietary devices will provide Linux-compatible drivers that they develop themselves.
+They won't let us know how their drivers work, so they never make it into the kernel, but where these proprietary drivers are available, they sometimes perform better than the reverse-engineered versions.
+With Ubuntu MATE, many of the proprietary drivers that have been made available are provided in the [app]``Welcome`` application, or in [ Software & Updates ] under the [label]#Additional Drivers# tab.
+(It's available in the menu at ``Menu`` > ``Administration`` > ``Software & Updates``.) Usually, Ubuntu MATE automatically makes the best choice of open source or proprietary drivers for your hardware when it's installed, but you have the choice of which driver works best for you. 
+
+If you find that Wi-Fi, Bluetooth or other hardware does not work, and the [ Additional Drivers ] did not find alternative drivers, you may need to research your device to find the appropriate driver.
+You'll find three methods of discovering your computer's specs in the next section, 
+[ Displaying Your System Information ].
+
+If there is nothing there in [ Additional Drivers ] to improve the performance of your hardware device, you may find something on the hardware manufacturer's site.
+You may need to install proprietary manufacturer drivers using the command line if you choose to use them.
+If you do, be careful to follow the installation instructions carefully, and before you install, make a system backup and understand how to uninstall just in case the proprietary drivers don't work.
+DO NOT simply search for drivers using drivers.com or other third-party sites.
+When you use third-party sources, there is no guarantee that you aren't getting something that will inject malware or corrupt your system.
+If you are unsure, or if you simply can't figure it out, you are better off asking about it in Ubuntu MATE forums and looking for someone else that has some advice or experience.
+Or you could just settle for the lower performance of the reverse-engineered driver.
+Of course, if you happen to be an expert in a device that doesn't have drivers in the kernel, the open source community would appreciate you sharing your expertise to help develop high-performance open source drivers for inclusion in the kernel. 
+
+[[_welcome_printers]]
+=== Getting Started: Setting Up Printers
+
+Setting up a printer is often as simple as plugging in its USB cable, or connecting it and your computer's Wi-Fi to your home wireless network.
+For more on printing see <<_applications_document_management>>.
+Click on [ Read more on printing ]in the "Getting Started" window to discover Linux-compatible printers that can be detected and setup automatically. 
+
+[[_welcome_utilities]]
+=== Getting Started: Additional Utilities
+
+In [ Software Utilities for Peripherals ], you will find applications that you can install from the Ubuntu repositories to help with specific needs. 
+
+image::figures/solaar-window.png[]
+
+One useful example is [app]``Solaar``, which is a utility for pairing and unpairing Logitech Unifying Receivers with Logitech peripherals like mice and keyboards.
+Click the [Install] button below the description of the software utility you want to download and install. 
+
+image::figures/unifying-receiver.png[]
+
+[[_welcome_specs]]
+=== Getting Started: System Specifications
+
+When you move to a new operating system, whether it's Windows, macOS or a Linux OS that's new to you, it's sometimes difficult to find what you are looking for -- at first.
+Take finding a list of your system hardware for example.
+In classic Windows, if you wanted a graphical display of the specs for your computer, you right-clicked on the My Computer desktop icon and selected 
+[ Properties ].
+With Windows 10, you click the Windows logo in the taskbar, then select menu:Settings[System > About].
+Neither is likely to be very intuitive if you have only ever used a Mac.
+On Apple's macOS, you select 
+[ About This Mac ] from the Apple logo menu to get a dialog box with selections to display at least some of your computer's specifications.
+Linux, too, has graphical tools to display information about your computer's hardware.
+Ubuntu MATE provides system specifications in the [app]``Welcome`` application.
+From the menu, select  ``Menu`` > ``Welcome`` > ``Getting Started`` > ``System Specifications``. 
+
+image::figures/system-specs.png[]
+
+.System Info By Terminal
+[TIP]
+====
+This graphical method presents a nice browseable list of information, but with a terminal and a few commands, you can really dig under the hood of your Ubuntu MATE computer's hardware.
+You can also use the command line to reveal some additional information stored in text files on your hard drive.
+For a discussion about how to do this, see the topic <<_terminal_sys_info>>. 
+====
+
+[[_applications_hud]]
+== Heads-Up Display
+
+image:apps/system.png[] Introduced in Ubuntu MATE 16.10 the heads-up display (HUD) provides a way to search for and run menu-bar commands without your fingers ever leaving the keyboard. 
+
+So if you're trying to find that single filter in Gimp but can't remember which filter category it fits into or if you can't recall if the preferences setting sits under File, Edit, or Tools on your favorite browser, you can just search for it rather than scrolling through the menus. 
+
+Just like Global Menus the HUD is currently only available via the Contemporary, Cupertino, and Mutiny panel layouts. 
+
+[[_applications_using_hud]]
+=== Using the HUD
+
+In order to use the HUD, you must be using one of three panel layouts: Contemporary, Cupertino, or Mutiny.
+(<<_personalization_panel_layouts>>) The HUD is activated by just pressing [Alt].
+The HUD overlays on top of the active application, allowing you to find the menu selection you want by simply typing.
+When you have found the menu item you want to use, simply press [Enter] to activate it. 
+
+image::figures/mate-hud.gif[]
+
+
+[[_applications_productivity]]
+== Productivity Applications
+
+Many of the applications you would expect to find installed on a modern computer are provided, pre-installed on Ubuntu MATE.
+If you don't find an installed application to do what you want to do, you'll likely find it in the [app]``Software Boutique`` or by using one of Ubuntu MATE's other software management applications, then you can install it from there.
+See the topic <<_applications_software>> for more information about installing software. 
+
+Unlike with Windows and macOS, Ubuntu MATE provides you with all of the pre-installed applications at no charge.
+And the vast majority of the software available in the software repositories is also free of charge.
+Here is a sampling of some of the productivity applications you'll find as soon as you start using Ubuntu MATE. 
+
+[[_productivity_firefox]]
+=== Firefox Web Browser
+
+image:apps/firefox.png[] Pre-installed with Ubuntu MATE, [app]``Firefox`` is a popular application on almost any computing platform that delivers safe, easy web browsing.
+A familiar user interface, enhanced security features including protection from online identity theft, and integrated search let you get the most out of the web. [app]``Firefox`` also provides features such as changing your home page, searching the web, bookmarking a site, and using a private browsing mode.
+You can also synchronize your [app]``Firefox`` bookmarks, history, passwords and more between your devices. https://support.mozilla.org/en-US/products/firefox[Read more about Firefox.]
+
+[[_productivity_thunderbird]]
+=== Thunderbird Email Client
+
+image:apps/thunderbird.png[] Web-based email programs that come from your Internet service provider (ISP) and Internet mail systems like [app]``Yahoo Mail`` and Google's [app]``Gmail`` are convenient to use because they allow you to read and send email from any device.
+The only thing you need to run these is a web browser and an Internet connection.
+Many ISPs provide email clients that you can use to read and respond to your email off-line as well.
+Unfortunately, those off-line programs are usually applications for Windows.
+Many ISPs also give you the option of using their online email in conjunction with almost any computer-based email client that can handle POP mail or IMAP mail. [app]``Thunderbird`` is a cross-platform email client that works on Linux and macOS as well as on Windows. 
+
+[app]``Thunderbird`` is a full-featured email, RSS, and newsgroup client that makes emailing safer, faster and easy.
+It supports different email accounts (POP, IMAP, Gmail), has a simple email account setup wizard, one-click address book, tabbed interface, an integrated learning spam filter, advanced search, and indexing capabilities, and offers easy organization of emails with tagging and virtual folders. 
+
+If you use the automatic account configuration, setting up a new account with [app]``Thunderbird`` is easy.
+All you need to do is provide your username and password for your email provider and your email address. [app]``Thunderbird`` works very nicely with Gmail and even synchronizes messages between [app]``Thunderbird`` on your computer and Gmail. https://www.mozilla.org/en-US/thunderbird[Read more about Thunderbird.]
+
+[[_productivity_libreoffice]]
+=== LibreOffice Office Productivity Suite
+
+image:apps/libreoffice.png[][app]``LibreOffice`` is a full-featured office productivity suite that provides a near drop-in replacement for Microsoft's office suite and is compatible with Google's online office suite.
+Like many office suites, [app]``LibreOffice`` includes several applications, but unlike other suites, it contains applications like [app]``Base`` and [app]``Math``, as a basic part of the suite. [app]``LibreOffice`` is also truly full-featured, unlike the online versions of office productivity apps that provide only the basic functions most people use.
+Basic capabilities are fine until you need to use one of those "advanced" features.
+Then you'll be looking for something with all the features.
+The Document Foundation (the organization behind LibreOffice) maintains an excellent set of documentation online for [app]``LibreOffice`` at the https://www.libreoffice.org/get-help/documentation/[LibreOffice website.]
+
+* image:apps/writer.png[] [app]``Writer`` [app]``Word`` [app]``Documents``
+* image:apps/calc.png[] [app]``Calc`` [app]``Excel`` [app]``Sheets``
+* image:apps/impress.png[] [app]``Impress`` [app]``PowerPoint`` [app]``Slides``
+* image:apps/draw.png[] [app]``Draw`` [app]``Visio``
+* image:apps/base.png[] [app]``Base`` [app]``Access``
+* image:apps/math.png[] [app]``Math`` [app]``Equation Editor`` [app]``Auto-Latex``
+
+[[_productivity_bluetooth]]
+=== Bluetooth Connectivity
+
+image:apps/bluetooth.png[] Ubuntu MATE provides the software you need to support Bluetooth connections to headphones, mice, keyboards, or other computing devices. 
+
+In order to use a Bluetooth device like a mouse or a headset, you first need to connect (pair) your computer and the device.
+Before you begin, make sure Bluetooth is enabled.
+Some computers allow you to disable Bluetooth from BIOS/UEFI.
+Check your BIOS settings to ensure that, if you have this setting, Bluetooth is enabled.
+Some laptops have a function key or other button that toggles Bluetooth and/or Wifi on and off.
+If your computer has this capability, make sure that Bluetooth is enabled in that way as well. 
+
+. Right-click the ``Bluetooth`` icon in the upper panel and select [ Set Up New Device ].
+. Make the other Bluetooth device discoverable or visible and place it within 30 feet (about 10 meters) of your computer. Click [Continue]. Your computer will begin searching for devices.
+. If there are too many devices listed, use the [ Device type ] drop-down to display only a single type of device in the list.
+. Click [ PIN options ] to set how a PIN will be delivered to the other device.
+
+.Note
+[NOTE]
+====
+The automatic PIN setting will use a six-digit numerical code.
+A device with no input keys or screen, such as a mouse or headset, may require a specific PIN such as 0000, or no PIN at all.
+Check your device's manual for the proper setting. 
+====
+
+// the list continues:
+[start=5]
+. Choose an appropriate PIN setting for your device, then click [Close]
+. Click [Continue] to proceed. If you did not choose a preset PIN, the PIN will be displayed on the screen.
+. If required, confirm the PIN on your other device. The device should show you the PIN you see on your computer screen or may prompt you to enter the PIN. Confirm the PIN on the device, then click [Matches].
+
+.Note
+[NOTE]
+====
+You need to finish your entry within about 20 seconds on most devices, or the connection will not be completed.
+If that happens, return to the device list and start again. 
+====
+
+// the list continues:
+[start=8]
+. A message appears when the connection successfully completes. Click  [Close].
+
+[[_productivity_caffeine]]
+=== Caffeine
+
+image:apps/caffeine.png[] With a coffee cup for an icon, [app]``Caffeine`` is a status bar application which sits in the panel near the clock and prevents the desktop from becoming idle.
+Simply click on the icon and choose 
+[ Activate ] to temporarily prevent the activation of both the screensaver and the "sleep" power saving mode.
+Click the icon again and choose 
+[ Deactivate ] to go back to normal. 
+
+[app]``Caffeine`` is not installed out-of-the-box with Ubuntu MATE, but it is available at no charge in the [app]``Software Boutique`` for one-click installation. 
+
+image::figures/caffeine-enable.gif[]
+
+[[_applications_document_management]]
+== Document Management
+
+image:apps/document.png[] Ubuntu MATE makes printing, scanning and saving documents almost easier than creating them.
+All the software you are likely to need is pre-installed for most popular printers and scanners, so setting up your hardware is easy, too. 
+
+[[_document_management_printing]]
+=== Printing
+
+image:apps/printer.svg[] Printing on Ubuntu MATE is simple and easy.
+The most popular printer drivers are already provided in Ubuntu MATE's Linux kernel.
+In most cases you simply connect your printer via its USB cable and Ubuntu MATE immediately configures it for use.
+There is nothing to do but start printing. 
+
+If you need to configure a network (or wireless) printer manually, you can follow these simple steps.
+Before you start, ensure that the printer is turned on and connected to the same network as your computer. 
+
+. Open the [app]``Printers`` application at  ``Menu`` > ``Administration`` > ``Printers``
+. Click [Add]
+. Click on [ Network Printer ] to view the network printers automatically detected by Ubuntu MATE.
+. Select the printer from the list and click [ Forward ]. Note that a driver has been automatically selected for you. If your printer driver is not automatically selected, you can select the manufacturer and the model from the database of drivers when prompted.
+. On the next screen, you can accept the suggestions provided or you can name your printer, give it a long description and even name its location. 
+. Click [Apply] to complete the configuration.
+. Print a test page to verify the setup and you are ready to begin using your network printer. 
+
+https://help.ubuntu.com/community/Printers[Read more about printing.]
+
+[[_document_management_advanced_printing]]
+=== Advanced Printing Utility
+
+image:apps/hplip.png[] For added control, you can install the [app]``HP Linux Imaging and Printing`` (HPLIP) utility from the [app]``Ubuntu MATE Welcome`` application or from the [app]``Software Boutique``.
+It gives you access to additional drivers and provides more options for managing your printers.
+For inkjet printers, as long as your printer supports it, you can monitor ink levels and printer status, you can change page size and print quality, and you can even clean the print heads.
+For multi-function devices, you can change fax header information and other settings for the fax functionality.
+Scanning functions are supported by the separate [app]``Simple Scan`` application described in the next section. http://hplipopensource.com/hplip-web/about.html[Read more about HPLIP]. 
+
+image::figures/hplip-window.png[]
+
+[[_document_management_scanning]]
+=== Scanning
+
+image:apps/scanner.png[] The [app]``Simple Scan`` application, found in the Ubuntu MATE menus at menu:Menu[Graphics > Simple Scan], provides a simple and easy way to scan your documents.
+Once your scanner is connected via USB or over the network, configuration is usually automatic. 
+
+.Note
+[NOTE]
+====
+Your first Ubuntu MATE menu choice depends on which of the <<_personalization_panel_layouts>> you have selected. 
+
+If you chose the default <<_panel_layouts_familiar>>, the first menu item is ``Menu``.
+It is also the first menu item for <<_panel_layouts_contemporary>>, <<_panel_layouts_redmond>>, and <<_panel_layouts_pantheon>>. ``Applications`` is the first item for the <<_panel_layouts_traditional>>.
+The <<_panel_layouts_netbook>>, <<_panel_layouts_mutiny>> and <<_panel_layouts_cupertino>> have no label and simply display the Ubuntu MATE logo to represent the menu. 
+====
+
+Using [app]``Simple Scan`` is as easy as: load your document, press Simple Scan's [Scan] button, then save the image.
+For more information about how to use Ubuntu MATE's more advanced scanning capabilities, view the link:ghelp:/usr/share/help/C/simple-scan/index[Simple Scan Manual] by pressing [F1] while [app]``Simple Scan`` is open. 
+
+[[_document_management_pdf]]
+=== PDF Creation
+
+image:apps/PDF-export.png[] Whether you are scanning a page, writing a book, or saving a web page, you sometimes need to make a PDF file from a document.
+You don't need a special application with Ubuntu MATE.
+PDF creation is built-in.
+Most applications provide a menu selection to 
+[ Save As PDF ] or [ Export to PDF ].
+If the application you use does not offer one of those options, Ubuntu MATE provides the ability to print a document or file in PDF format.
+See the illustration. 
+
+image::figures/print-pdf.png[]
+
+
+[[_applications_entertainment]]
+== Entertainment Applications
+
+Ubuntu MATE comes pre-installed with three significant applications for managing your entertainment and media files and subscriptions.
+If you need more, the <<_software_software_centers>> offer many, many more to choose from. 
+
+.Note
+[NOTE]
+====
+For each of the applications, below, your first Ubuntu MATE menu choice depends on which of the <<_personalization_panel_layouts>> you have selected. 
+
+If you chose the default <<_panel_layouts_familiar>>, the first menu item is ``Menu``.
+It is also the first menu item for <<_panel_layouts_contemporary>>, <<_panel_layouts_redmond>>, and <<_panel_layouts_pantheon>>. ````Applications`` is the first item for the <<_panel_layouts_traditional>>.
+The <<_panel_layouts_netbook>>, <<_panel_layouts_mutiny>> and <<_panel_layouts_cupertino>> have no label and simply display the Ubuntu MATE logo to represent the menu. 
+====
+
+[[_entertainment_rhythmbox]]
+=== Rhythmbox Music and Podcast Manager
+
+image:apps/rhythmbox.png[][app]``Rhythmbox``, found in the Ubuntu MATE menus at menu:Menu[Sound & Video > Rhythmbox], is a very easy to use music playing and management program which supports a wide range of audio formats (including MP3 and ogg). Originally inspired by Apple's [app]``iTunes``, [app]``Rhythmbox`` is much easier to understand and use, and it supports Internet Radio, iPod integration and generic portable audio player support, audio CD burning, audio CD playback, music sharing, and podcasts. 
+
+*Subscribe to a podcast with Rhythmbox*
+
+. Click ``Podcasts`` in [app]``Rhythmbox's`` left panel.
+. Click the [Add] button in the button bar. The search panel opens.
+. Type a search term or you can type or paste the link for the podcast feed into the search field.
+
+image::figures/rhythmbox-podcast-search.png[]
+
+. Click [Search]. Podcasts matching your search appear in a list below the search.
+. Select the podcast you want from the list and click  [Subscribe]. The episodes are added to the playlist and [app]``Rhythmbox`` immediately begins downloading the latest episode into a folder named for the podcast within your Music folder. [app]``Rhythmbox`` checks periodically for new episodes of each podcast and downloads them for you.
+. Click [Close] to hide the search panel.
+
+To play an episode, select one from the list and press the [▶] (Play) button.
+You may wish to click on the header of the Date field to sort the episodes so that the latest episode is at the top of the list.
+As long as you have an Internet connection, you can play any of the older episodes without downloading them.
+Right-click any episode in the list to see an option to download that episode. 
+
+For more information on how to use the playlist and other features of Rhythmbox, see the link:ghelp:/usr/share/help/C/rhythmbox/index.docbook[Rhythmbox Music Player Manual] by pressing [F1] while [app]``Rhythmbox`` is open. 
+
+[[_entertainment_shotwell]]
+=== Shotwell Digital Photo Organizer
+
+image:apps/shotwell.png[] [app]``Shotwell``[app]``Shotwell``, found in the Ubuntu MATE menus at ``Menu`` > ``Graphics`` > ``Shotwell``, is a digital photo organizer.
+It allows you to import photos from disk or camera, organize them in various ways, view them in full-window or full-screen mode, and export them to share with others.
+It is able to manage photos in many different image formats, also including raw CR2 files. 
+
+When you first launch [app]``Shotwell``, it scans your computer for photos and imports them so that you can use [app]``Shotwell`` to organize them.
+Once you have all the photos from your computer's hard drive within [app]``Shotwell``, you can import new files by choosing ``File`` > ``Import From Folder`` from the menus, or by dragging and dropping them onto the [app]``Shotwell`` window, or by connecting a camera to your computer and choosing to import the photos from there. 
+
+With [app]``Shotwell``, you have several features to help you organize your photos.
+You can group photos that were taken at the same time into events, then rename, merge and sort events.
+Flag photos to mark them as special, or to work with them as a set.
+You can also search for, rate, tag, and title your photos. [app]``Shotwell`` also provides the ability to edit the photos themselves.
+You can change the date and time of photos where they are incorrect, crop photos, remove red-eye, auto-enhance to improve brightness and contrast, rotate or flip a photo, and even straighten photos taken at an angle. 
+
+Of course, you can share your photos from [app]``Shotwell`` by exporting or printing them.
+You can also publish them to Facebook or other online sites, send them via email or instant messaging, or simply display them as a slideshow. 
+
+To learn more about how to use each of the features of [app]``Shotwell``, see the link:ghelp:/usr/share/help/C/shotwell/index.page[Shotwell Photo Manager Manual] by pressing [F1] while [app]``Shotwell`` is open. 
+
+[[_entertainment_vlc]]
+=== VLC Media Player
+
+image:apps/vlc.png[][app]``VLC``, found in the Ubuntu MATE menus at menu:Menu[Sound & Video > VLC] media player, is the VideoLAN project's cross-platform media player that can play almost anything you throw at it! It plays MPEG, MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs, audio and video podcasts, and multimedia streams from various network sources. [app]``VLC`` can also be used as a streaming server that duplicates the stream it reads and multi-casts it through the network to other clients, or serves it through HTTP. 
+
+[app]``VLC`` has support for on-the-fly transcoding of audio and video formats, either for broadcasting purposes or for movie format transformations.
+That means you can convert video files from one format to another or take almost any audio or video file in any of the supported formats and make it into an MP3 or other audio file. 
+
+For additional information about [app]``VLC`` and how it works, see VideoLan's https://wiki.videolan.org/Documentation:VLC_for_dummies[VLC Introduction.]
+
+image::figures/vlc-video.png[]
+
+[[_applications_games]]
+== Games
+
+image:apps/steam.png[] In the last few years, Linux has become a first-class gaming platform thanks to http://www.valvesoftware.com/[Valve] bringing the http://store.steampowered.com/[Steam] platform to Linux.
+At the time of writing, [app]``Steam`` has more than 2000 high-quality indie and AAA titles available for Linux.
+Ubuntu MATE is fully compatible with [app]``Steam`` for Linux. 
+
+While [app]``Steam`` is a major step forward for gaming on Linux, there are also many high quality and enjoyable Open Source games titles available for Ubuntu MATE via the [app]``Ubuntu Software Centre``.
+It doesn't matter if you like flight simulators, motor racing, first-person shooters, jump and run or card games, you'll find something to keep you entertained. 
+
+image::figures/minecraft-2.png[]
+
+image::figures/0AD.png[]
+
+[[_applications_security]]
+== Security
+
+image:apps/security.png[] Ubuntu MATE, and other distributions of the Linux operating system are more secure, and better supported than the operating systems pre-installed on most home computer hardware today.
+Linux is backed by many large corporations, as well as independent developers and users, many of whom are focused on ensuring and improving the security that is built into the operating system.
+The built-in updater provided with Ubuntu MATE provides security updates for both its software applications and the operating system.
+Vulnerabilities are patched more quickly and are delivered automatically and more frequently than the two most popular desktop operating systems. 
+
+Unlike operating systems that update only once a month, Ubuntu MATE receives updates continuously.
+The updates include security patches for Ubuntu MATE and its installed applications and are all provided on the same frequent schedule.
+This ensures that you have the latest protection for all of your computer's software -- as soon as it's available! 
+
+Ubuntu MATE is designed to make it difficult for viruses, rootkits, and other malware to be installed and run without conscious intervention by you, the user.
+Ubuntu MATE users are not administrators by default.
+Administrators ("root" users) on any computer system have permission to do anything they want, including doing damage to the system.
+To be extra secure, Ubuntu MATE requires you to provide your administrator password to install or run programs as root.
+Every single time. 
+
+[[_security_guidelines]]
+=== Basic Linux Security Guidelines
+
+https://help.ubuntu.com/community/Linuxvirus[Canonical lists] just over 30 Linux viruses and worms in its published malware list.
+In contrast, there are about 140,000 viruses for Windows, so... 
+
+* If you dual-boot with Windows, run Windows in a VM, use [app]``WINE`` or simply share files with Windows-using friends, scan the files for viruses. 
+* Enable the Ubuntu MATE software firewall, if it isn't already. (See below.) 
+* Keep your system updated. Updates are automatic on most Linux distributions. Let them run as soon as they are available. 
+* Use strong passwords. On everything. And use a secure password manager to store them. 
+* Make backups regularly. 
+* Install software only from trusted sources, like Ubuntu MATE's [app]``Software Boutique`` or software repositories. 
+* Use security-related plugins for your Internet browser that protect your data, credentials, and privacy. 
+* Use your common sense. The biggest security threat is generally found between keyboard and chair. 
+
+
+[[_security_backups]]
+=== Backups (Déjà Dup)
+
+image:apps/deja-dup.png[] Ubuntu MATE comes pre-installed with a backup utility called [app]``Déjà Dup``.
+The application is found in the [app]``Control Center`` at menu:Menu[Control Center > Backups].
+Reinstalling an operating system again after something goes horribly wrong is annoying at best, but losing your photographs, emails, and personal documents can be a devastating loss of priceless, irreplaceable valuables.
+Backing up the information on your hard drive on a regular basis is critical for anyone who uses a computer routinely.
+You have spent hours on end producing the information that is on your hard drive.
+You should routinely back up at least your new data files on a weekly basis.
+"Data" files include databases, documents, spreadsheets, etc.
+Anything YOU created, imported, or downloaded onto your hard drive is a data file. 
+
+If you are prepared to restore from a backup, then you are far more secure.
+It is important to make backups right before performing certain risky operations like upgrading to a new operating system version, moving a large number of files around, deleting files and folders, etc. [app]``Déjà Dup`` even lets you automate your backups for added convenience and safety. 
+
+In the event that your computer has a digital disaster, or you are concerned that it has an infection, your backups will ensure that you can restore Ubuntu MATE to a known previously good state.
+For additional help on using this application, see the link:ghelp:/usr/share/help/C/org.gnome.DejaDup/index.page[Déjà Dup manual] by pressing [F1] while [app]``Déjà Dup`` is open. 
+
+
+image::figures/backups-schedule.png[]
+
+
+[[_security_when_to_backup]]
+=== How Do I Know What & Where To Backup?
+
+Years ago, the only realistic way to perform a backup on a home computer was to save the data onto CDs, DVDs, Zip Drives, Jaz Drives or (worse still) floppy disks! Today, your best option is to use online storage or an external hard drive.
+The focus of this topic is on making backups to hardware devices.
+If you don't have a network attached storage (NAS) drive on your home network, you can readily purchase an external drive with multiple terabytes (TB) of storage capacity, or even an inexpensive portable USB external drive with a terabyte or more of storage -- large enough to hold the data from most computers' hard drives today. 
+
+On a typical recordable CD, you can store up to 700 megabytes (MB) of information while DVDs can store up to 8.4 gigabytes (GB). Blu-ray discs are a more recent type of optical media.
+They can hold up to 50GB of data.
+With the size of files these days, you might get one or two video files on a DVD.
+If you have a file that is larger than 700MB, like a moderate [app]``LibreOffice Impress`` presentation file, or a [app]``Writer`` document with graphics, an ordinary CD has no hope of holding even one whole file. 
+
+When backing-up data files, it is not always necessary to backup every file you have on your hard drive, although it's a good idea to do so monthly.
+On your Ubuntu MATE computer, few files, if any, outside of your "home" folder need to be backed-up at all.
+If a disaster were to happen, and you lost your computer or your hard drive, you could simply reinstall the Ubuntu MATE operating system and your applications in well under an hour, then restore the backed-up contents of your "home" folder.
+Your "home" folder contains the information that you have created yourself, including your mail file, and the settings and preferences for most of your applications. 
+
+image::figures/copy-to-NAS.png[]
+
+If you have a home network you may be lucky enough to own a multi-terabyte hard drive accessible to any computer on the network.
+Large external hard drives have become so inexpensive that it is wise to include an external hard drive in your budget when you are buying a new computer.
+Ubuntu MATE's [app]``Caja`` file manager is shown in the illustration above, copying the "home" folder to an external 3TB NAS drive shared on a home network. 
+
+Instead of being stored on your computer's hard drive, the files you copy to an external or networked drive are stored safely off of your computer.
+That way, if something happens to your computer's internal hard drive, or if you have your laptop stolen, all your files are safely stored on an external device. 
+
+An equivalent to a network drive (well, sort of...) is an online (off-site) storage service like [app]``Dropbox``, [app]``Box``, [app]``Google Drive``, or [app]``SpiderOak``.
+The advantage to this kind of backup is that your files are stored on the Internet.
+Even if the worst were to happen, and you lost everything to a fire or flood, your backups would be safe.
+And if you copy your files to online storage, you will also likely be able to access them from another computer, a tablet or smartphone! 
+
+image::figures/deja-dup-in-menu.png[]
+
+[[_security_insurance]]
+=== Backing up Your Computer Is Cheap Disaster Recovery Insurance
+
+One way to backup inexpensively is to get a large firewire or USB 3.0 external hard drive and copy everything in your "home" folder to it on a regular basis.
+And perhaps the easiest way to ensure that you make your backups regularly is to automate the process using the backup software that comes pre-installed with Ubuntu MATE. 
+
+At least monthly, you should make a complete backup of everything important on your hard drive either by using backup software or by simply copying to a second hard drive or a network drive.
+Linux applications such as the pre-installed Ubuntu MATE [app]``Backup`` ([app]``Déjà Dup``) application can automate these backups for you.
+You do this so that if your computer or hard drive were to be stolen, destroyed or damaged beyond repair, you would have a "disaster recovery" copy.
+From a "disaster recovery" copy, you could restore your entire "home" folder to the condition it was in, at the time of your last backup.
+If you do such a complete backup monthly, the worst case would be that you would have to restore less than a month's worth of additional data from your incremental data backups.
+(Incremental backups contain only what has changed since your last full backup.) 
+
+[[_security_how_often]]
+=== How often should I backup?
+
+In reality, how often you should backup depends on several factors.
+In general, the more you use your computer or the more critical the work you are doing, the more often you should backup. 
+
+As a general guideline, you should use the external drive and/or your online storage to make a complete backup of your entire hard drive every month.
+So that you don't forget, automate the process using the backup software pre-installed with Ubuntu MATE.
+You can even set up the [app]``Backup`` application so that it copies only new files, and updates new versions of files on your computer to the backup device, never deleting anything from the copy.
+What a lifesaver that can be! 
+
+Use an online service or external hard drive to make a monthly full backup.
+In addition, each week you should back up your critical data files in an incremental backup onto your external storage, or to your online storage.
+Incremental backups can be automated, too. 
+
+Don't wait.
+Setup a scheduled backup right now -- or you will wish you had! 
+
+[[_security_updates]]
+=== Software Updater
+
+image:apps/system-software-update.png[] The [app]``Software Updater`` available from the [app]``Ubuntu MATE Welcome`` app or from the menus at menu:Menu[Administration > Software Updater] is the update manager for your system.
+Ubuntu MATE periodically checks to see if new software and security updates are available for your computer.
+The updates are for Ubuntu MATE, all of its components, and all of your installed applications.
+This ensures that you have the latest updates and protection for all of your computer's software as soon as it's available, not just once a month like other operating systems. 
+
+image::figures/updates-available.png[]
+
+After you launch the [app]``Software Updater`` from the menus, if updates are available, the application lists the updates and asks if you want to install them now.
+Click [Install Now] to begin the download.
+The dialog shown below appears while the update is in progress and another appears once the update is complete. 
+
+image::figures/updating.png[]
+
+.Note
+[NOTE]
+====
+If Ubuntu MATE cannot install all of the updates and upgrades at once, you will see an option to perform a [Partial upgrade].
+You should normally choose that option, restart if required, then check for additional updates using the [app]``Software Updater``.
+====
+
+You have control over when and how software updates occur.
+Use the [Settings] button on the [app]``Software Updater`` screen, or from the menus, choose ``Menu`` > ``Administration`` > ``Software & Updates``, then select the [label]#Updates# tab. 
+
+image::figures/updates-settings.png[]
+
+
+These are your options for controlling updates to Ubuntu MATE and its applications: 
+
+* You can choose from options to install "Important," "Recommended," "Unsupported" or any combination of these updates. 
+* You can have the updater automatically check for updates every day, every two days, every week, every two weeks, or turn off automatic checking altogether. 
+* You can have the updater automatically download and install security updates, download but not install them or simply display the updates so you can choose whether to download and install. 
+* For other updates (other than security updates) you can choose to display available updates as soon as they are available, weekly, or every two weeks. 
+* You can also choose to be notified whenever there is a new release of Ubuntu MATE, only when there is a Long-Term-Support (LTS) release, or never. 
+
+[[_security_firewall]]
+=== Firewall
+
+image:apps/gufw.svg[] Ubuntu MATE's [app]``Firewall Configuration`` utility (Gufw), found in the [app]``Control Center`` at menu:Menu[Control Center > Firewall Configuration], provides an uncomplicated way to manage your firewall settings.
+The firewall is not enabled by default in Ubuntu MATE because by default, Ubuntu MATE does not open ports to the outside world.
+If you do choose to enable the firewall, and if you are a normal user, you will be safe with these settings: 
+
+* _Status=On_
+* _Incoming=Deny_
+* _Outgoing=Allow_
+
+
+No need to set the firewall to autostart.
+After you change the settings they will remain in place until you change them again. 
+
+image::figures/firewall.png[]
+
+[[_applications_accessibility]]
+== Accessibility
+
+image:apps/a11y.png[] Accessibility, also referenced as "Assistive Technology" or "Universal Access," is a key priority for Ubuntu MATE.
+When computer access is shared within a household or business and where individual needs differ, Ubuntu MATE is an excellent solution. 
+
+Preference settings for basic accessibility setting are found in the [app]``Control Center`` at menu:Menu[Control Center > Assistive Technology].
+From there you can check the box to enable assistive applications, change which visual and mobility applications are used by default, and even change whether they are started when your computer starts up.
+You can also modify your keyboard (sticky keys, slow keys, bounce keys) and mouse (locate pointer, acceleration, sensitivity, drag & drop, double-click timeout) accessibility settings from here.
+You can even enable an on-screen keyboard if you need it. 
+
+image::figures/accessibilty.png[]
+
+Ubuntu MATE has many keyboard shortcuts that, by pressing a combination of keys, help you do things that normally require a mouse, trackpad, or another input device that might also require sight or muscular range of motion not possible for some computer users requiring accessibility.
+For some of these keyboard shortcuts, Ubuntu MATE makes use of a special meta key, the "Super" key, available on most computer keyboards.
+The Super key can be used to activate the menus/launchers and many keyboard shortcuts that include the Super key.
+Note that on computer keyboards designed for use with the Windows operating system, the Super key is labeled with the "Windows" logo.
+On keyboards designed for use with Apple's operating system, the Super key is labeled as the "Command" key.
+On computers designed for Linux, the Super key may be labeled with the Tux penguin logo (the Linux mascot), the Ubuntu logo, or perhaps even a blank square.
+For additional information about keyboard shortcuts and enabling the Super key on some computer hardware, see the section: <<_page.shortcuts>>. 
+
+[[_accessibility_enable_at_startup]]
+=== Enabling Accessibility at Startup
+
+When Ubuntu MATE is first installed as your computer's operating system, it is pre-configured so that both [app]``Orca``, the screen reader, and [app]``Onboard``, the on-screen keyboard, are already installed and running in the background.
+All you need to do to use them is press the keyboard shortcut detailed in each section below to turn the feature on.
+You use the same shortcut to turn each application off again. 
+
+If you want to use these features at the login screen, before Ubuntu MATE even starts, the accessibility icon in the upper right of the screen lets you toggle on and off [app]``Orca`` and [app]``Onboard``.
+You can also use [app]``Orca``'s keyboard shortcut [Alt] + [Super] + [S] to enable the screen reader to assist in the login process. 
+
+[[_accessibility_orca]]
+=== Orca Screen Reader
+
+image:apps/gnome-orca.png[] The [app]``Orca`` screen reader is a free, open source, flexible, and extensible screen reader that provides you with access to the graphical desktop via user-customizable combinations of speech and/or braille.
+It is pre-installed in Ubuntu MATE for blind and low vision users.
+At the login screen, and after Ubuntu MATE starts, you toggle the screen reader off and on by pressing [Alt] + [Super] + [S]. 
+
+With some other Linux distributions, getting [app]``Orca`` to work can be tricky.
+With Ubuntu MATE all the setup is done for you.
+It also works nicely with pretty much all of the pre-installed software, including the [app]``LibreOffice`` office suite and the [app]``Firefox`` browser. 
+
+For complete information about using and configuring the [app]``Orca`` screen reader, refer to the website https://help.gnome.org/users/orca/stable/. 
+
+The [app]``Orca`` documentation on the website occasionally refers to the "Orca Modifier" key.
+The key that [app]``Orca`` uses by default as the "Orca Modifier" depends on whether you are using [app]``Orca``'s "Laptop" keyboard layout or its "Desktop" keyboard layout: 
+
+You can use the "Orca Modifier" key to get to [app]``Orca``'s help.
+Press [Orca Modifier] + [H] to enter "learn mode". 
+
+.Orca Modifier
+[TIP]
+====
+If you are using [app]``Orca``'s "Laptop" layout, the default Orca Modifier will be [CapsLock]. 
+
+If you are using [app]``Orca``'s "Desktop" layout, for the Orca Modifier you can use either the normal [Insert] key or the KeyPad+[Insert].
+On US keyboards, KeyPad+[Insert] is the same key as the [0] (zero) on the numeric keypad. 
+====
+
+You can use the "Orca Modifier" key to get to [app]``Orca``'s help.
+Press [Orca Modifier] + [H] to enter "learn mode". 
+
+.Orca Help
+[TIP]
+====
+To view [app]``Orca``'s documentation, press [F1]. 
+To hear a list of [app]``Orca``'s shortcuts, press [F2]. 
+To hear a list of [app]``Orca``'s shortcuts for the current application, press [F3]. 
+====
+
+To learn more about how to use [app]``Orca`` to read documents and websites, see the web page: https://help.gnome.org/users/orca/stable/#reading[https://help.gnome.org/users/orca/stable/#reading.]
+
+You may find that the screen reader speaks too slowly or too quickly for you.
+You can adjust the rate at which [app]``Orca`` speaks, and make other adjustments as well, in Orca Preferences.
+To get to the Orca Preferences screens, press [Orca Modifier] + [Spacebar].
+If you find yourself needing to adjust the speed frequently, you might want to bind (map) the "increase the rate" and "decrease the rate" commands to specific keys.
+That way you can more easily make these adjustments.
+To review (and setup) the keyboard shortcuts and commands that [app]``Orca`` uses, you will want to refer to the documentation on key bindings on this web page: https://help.gnome.org/users/orca/stable/howto_key_bindings.html.en. 
+
+This is just a small sampling of the documentation that is available to you on the [app]``Orca`` site.
+Browse around.
+Discover what this powerful tool can do! 
+
+[[_accessibility_onboard]]
+=== Onboard On-Screen Keyboard
+
+image:apps/onboard.svg[] [app]``Onboard`` is the name of Ubuntu MATE's on-screen keyboard. [app]``Onboard`` is pre-installed in Ubuntu MATE and is available at the press of a few keys for anyone requiring the use of an on-screen keyboard in place of a traditional hardware keyboard.
+In addition to supporting mobility-impaired users, [app]``Onboard`` provides support for tablet and touch-screen computers.
+To turn [app]``Onboard`` off or on again from the hardware keyboard, press [Alt] + [Super] + [K]. 
+
+You can also enable [app]``Onboard`` so that it is available on-screen right at startup: 
+
+. Open the [app]``Assistive Technologies Preference`` at ``Menu`` > ``Control Center`` > ``Assistive Technology``
+
+. Check the box labeled _[label]#Enable assistive technologies#_
+
+. Click the [Preferred Applications] button
+. Select the _[label]#Accessibility#_ tab
+. Under _[label]#Mobility#_ select ``Onboard``
+. Check the box labeled _[label]#Run at start#_ and click [Close]
+
+image::figures/enable-onboard.png[]
+
+Additional settings and preferences for [app]``Onboard`` are listed in the [app]``Control Panel`` in the _[label]#Personal#_ section as ``Onboard Settings``.
+
+[[_accessibility_magnifier]]
+=== Screen Magnifier
+
+image:apps/a11y.png[] If you are a low vision computer user and you require screen magnification, Ubuntu MATE has two magnification options already built in.
+To turn on or off the default screen magnifier, press [Alt] + [Super] + [M].
+Once you have the magnification turned on you can zoom into a portion of the screen by pressing [Alt] + [Super] + [+] . To zoom out, press [Alt] + [Super] + [-] (the minus key). 
+
+An alternative screen magnifier is available if you have the [app]``Compiz`` window manager enabled using [app]``MATE Tweak``. [app]``Compiz`` is preconfigured to allow you to zoom in and out by scrolling while holding down the [Super] key.
+The [app]``Compiz`` screen magnifier is on and available at all times for you to use.
+No need to toggle the zoom function on and off.
+It zooms the entire screen at once, not just a small section of the screen.
+The zoomed screen follows the motion of the mouse so that you can easily move around to any portion of the screen.
+For these reasons, this may be a better screen magnifier. 
+
+image::figures/compiz.png[]
+
+To switch to the [app]``Compiz`` window manager, from the menus select ``Menu ``> ``Preferences`` > ``MATE Tweak`` > ``Windows``.
+For the window manager setting, select [Compiz (Advanced GPU accelerated desktop effects)].
+Confirm the change when prompted.
+If the setting is unavailable, your hardware is not capable of the advanced acceleration required to use [app]``Compiz`` and the default screen magnifier is available. 
+
+.Note
+[NOTE]
+====
+[app]``Onboard`` and [app]``Orca`` accessibility features and keyboard shortcuts remain fully available with Compiz enabled. 
+====
+
+[[_accessibility_mobility]]
+=== Mobility Features
+
+image:apps/a11y.png[] The [app]``Control Panel`` provides preferences for [app]``Mouse`` and [app]``Keyboard`` that each offer settings that will be of interest to users with mobility impairments. 
+
+[app]``Mouse Preferences`` provide the ability to adjust the _[label]#Pointer Speed#_ sliders until the pointer motion is comfortable for you.
+A tab is provided for mouse and touchpad with sliders for each device.
+You can set different pointer speed for each type of device.
+For example, you can have one scroll speed for a laptop touchpad and another for a mouse.
+Sometimes the most comfortable settings for one type of device are not the best for another. 
+
+image::figures/mouse-prefs.png[]
+
+.Note
+[NOTE]
+====
+The Touchpad section only appears if your system has a touchpad, while the Mouse section is only visible when a mouse is plugged in. 
+====
+
+The [app]``Keyboard Preferences`` provides several tabs that have settings allowing you to adjust the following: 
+
+* Keyboard navigation -- Use applications and the desktop without a mouse. 
+Manage repeated key presses -- Make the keyboard not repeat letters when you hold down a key, or change the delay and speed of repeat keys. * Turn on bounce keys -- Ignore quickly-repeated key presses of the same key. 
+* Turn on slow keys -- Have a delay between a key being pressed and that letter appearing on the screen. 
+* Turn on sticky keys -- Type keyboard shortcuts one key at a time rather than having to hold down all of the keys at once. 
+
+image::figures/keyboard-prefs.png[]
+
+[[_applications_software]]
+== Installing Additional Applications
+
+image:apps/ubuntu-software-center.png[] Almost every software package that is available and tested for Ubuntu MATE is available in the online software repositories (software catalog). The concept of software repositories is likely not all that familiar to long-time users switching from Windows since classic Windows users normally had to go to a brick and mortar store or go online to purchase new software for the Microsoft operating system.
+For macOS users, however, the concept of the Apple App Store is similar in concept to the software repositories.
+Both contain trusted applications verified to run on their respective operating systems.
+Unlike most software in the App Store, the vast majority of Linux applications are neither proprietary nor expensive. 
+
+The software repositories for Ubuntu MATE are managed, maintained and updated by the distribution's maintainers and are variably referred to as "the software catalog," "the software library," "the software center," "software sources," or simply "software repositories." These repositories contain almost ALL of the full-featured, free and open source software that has been tested for installation on Ubuntu MATE and other Ubuntu derivatives.
+And they won't put spyware and viruses on your computer! 
+
+To install software on Ubuntu MATE, you normally use the [app]``Software Boutique``.
+You can also use the [app]``Software Center`` or the [app]``Synaptic`` package manager.
+When a Linux user says "package" think "software package". Software centers and package managers are examples of applications that are used to browse and retrieve software packages from software repositories.
+Ubuntu MATE conveniently gives you the option to install one when your search in the [app]``Software Boutique`` returns no results. 
+
+[[_software_trusted]]
+=== Trusted Sources
+
+The Ubuntu software repositories include thousands of applications in hundreds of categories, suitable for just about any professional or recreational pursuit, and most are free of charge.
+When you use Ubuntu MATE, those applications, as well as security updates, driver updates, application updates, software upgrades and operating system upgrades, are all available from trusted sources so you won't need to search the Internet for software.
+No more risking malware, junkware, or ransomware as a result of downloading from the wrong site! Ubuntu's software catalog is the ultimate in a trusted source! 
+
+There are several ways to obtain software from the software catalog.
+Ubuntu MATE's own [app]``Software Boutique`` is a carefully curated selection of the best-in-class applications from the Ubuntu repositories, chosen because they integrate well, complement Ubuntu MATE and enable you to personalize your computing experience.
+When you first install Ubuntu MATE, the [app]``Software Boutique`` is the main graphical application you will use to install software.
+Other applications are also available to explore the complete Ubuntu software catalog.
+You have full access to the entire library at any time using the command line, but in order to obtain software from the complete software catalog using a graphical application that lets you browse through it, you will need to enable one or more of the software center applications from within the [app]``Software Boutique``. 
+
+.Note
+[NOTE]
+====
+Installing applications from the command line is discussed in a little more detail in <<_terminal_example>>. 
+====
+
+=== Software Boutique
+
+The [app]``Software Boutique``'s curated selection of the most popular applications lets you: 
+
+* Select from the list of Ubuntu MATE's recommended software, tested for the distribution.
+* Use simple tools to manage software packages installed on your system.
+* Install a software center or package manager with even more powerful ways to obtain additional software for your computer.
+
+To launch the [app]``Software Boutique`` from the menus, choose ``Menu`` > ``Administration`` > ``Software Boutique``. 
+
+image::figures/software-boutique-window.png[]
+
+
+[[_software_software_centers]]
+=== Software Centers
+
+If you don't find what you're looking for in the [app]``Software Boutique``, install one of the available Software Centers to explore the complete Ubuntu software catalog.
+Choose the "More Software" category using the icons across the top of the [app]``Software Boutique``'s main window.
+The selection labeled simply "Software" installs a graphical application that lets you browse, install and update additional software applications and system extensions from the Ubuntu software repositories. 
+
+The [app]``Synaptic Package Manager`` is a graphical package management application that lets you install software onto your computer and manage the software that is already installed.
+It allows you to search, install, upgrade, and remove packages using the software repositories.
+It also lets you add more software sources, modify repository settings, view changelogs, and even lock a package to a specific version. 
+
+Ubuntu MATE always has security in mind.
+Regardless of how you choose to install software, you are always asked for your password before anything can be installed.
+This is a list of some of the most popular software selections available from the repositories: 
+
+* Codecs, libdvdcss2
+* Dropbox for file sharing
+* Gimp advanced image editor
+* The Google Chrome browser
+* Google Music Manager
+* InSync Google Drive application
+* Minecraft
+* Skype for Linux
+* The Steam gaming platform
+* The Software application
+* SpiderOakONE offsite backup
+* Spotify for music
+* Synaptic package manager
+* Syncthing for file synchronization
+* Telegram messaging app
+* Ubuntu SDK
+* Get download manager
+* VeraCrypt file and folder encryption
+* VirtualBox 5.0 virtual machine
+
+There is much more available.
+You can browse by the application's name or by function -- what the application does.
+Because the vast majority of the software available in the repositories is free, you can try applications and if you don't like them, or if they don't do what you expect them to do, you can uninstall them just as easily. 
+
+[[_personalization]]
+== • • • PERSONALIZING UBUNTU MATE • • •
+
+image:apps/control-centre.png[] Although you can do some basic tweaking out of the box with other operating systems, Linux is infinitely more configurable than Mac or Windows.
+Sure you can get add-on software to personalize your Windows desktop quite a bit, but Ubuntu MATE provides the customization tools built right in, with additional utilities just a few clicks away in the software repositories (free software store). What makes Ubuntu MATE so much more flexible is that it is designed to be customizable. 
+
+So, what can you do with Ubuntu MATE? From simply changing the background desktop image (wallpaper) to altering the menu position, to making your desktop a virtual "dashboard" for displaying the health and performance of your computer's hardware, Ubuntu MATE can do it.
+You can even revamp the Ubuntu MATE desktop to make it look and behave convincingly like macOS or Windows.
+Covering all of the possibilities for customization would fill an entire book, so this section will simply give you some ideas as to what can be done, and it will be up to you to explore on your own how you can configure your system to make it look and work the way that best suits your style. 
+
+image::figures/control_center_smaller.png[]
+
+As you learn about Ubuntu MATE, you might find it more comfortable to put things where you were used to finding them on your previous system.
+Ubuntu MATE provides the unique [app]``MATE Tweak`` tool to do just that, to transform the look and feel of your computer.
+The [app]``MATE Tweak`` application is found in the Ubuntu MATE menus at ``Menu`` > ``Control Center`` > ``MATE Tweak`` and can be used to quickly change how things look and feel.
+You can even make Ubuntu MATE look and work like other popular operating systems if that's what you want.
+Or you can give it a unique and distinctive look of its own so that anyone looking at your screen can tell you aren't using the same computer software they are! 
+
+[[_personalization_panel_layouts]]
+== Panel Layouts 
+
+[[_panel_layouts_changing]]
+=== Choosing and Changing Panel Layouts
+
+image:apps/desktop.png[] One of the quickest ways to change the look and feel of Ubuntu MATE is to select a different panel layout using [app]``MATE Tweak`` which is found in the Ubuntu MATE menus at ``Menu`` > ``Control Center`` > ``MATE Tweak``.
+Each panel layout is distinctive and provides a different desktop workflow. 
+
+From the main page of <<_applications_welcome>> you can also click on the [Customise Panels] button to open a page that lets you select the panel layout right from the [app]``Welcome`` application. 
+
+image::figures/customise-layout.png[]
+
+Of course, since this is Linux, with any of these eight layouts, you can move the panels to the sides of your screen if you like, you can add or remove a dock, and you can even name and save your own customized panel layouts to make it easy to switch between them.
+All of this is done from [app]``MATE Tweak``.
+Using the [app]``MATE Tweak`` application, you also can control the size of the icons that appear in the panels, which icons display on your desktop, and whether the windows show some animation or snap into position when they open.
+You can even change whether the window controls for Close, Minimize and Maximize appear on the left, like macOS, or on the right, like Windows. 
+
+[[_panel_layouts_familiar]]
+=== Familiar (Ubuntu-MATE) Layout
+
+When you first install Ubuntu MATE, you'll be using its own layout, named Familiar.
+The Familiar layout, introduced in release 18.04, is based on the Traditional layout with the menu-bar (Applications, Places, System) replaced by the Brisk menu's simple "``Menu``". The Familiar layout has a clock in the top right, and a panel with the list of open applications at the bottom.
+The menu for each application appears at the top of the application's window in the familiar way -- that is 'familiar' if you are used to the way it's done on Microsoft's windows.
+If you prefer to try something else, you can select a different panel layout using the [app]``MATE Tweak`` "Panel" options. 
+
+image::figures/familiar-layout.png[]
+
+[[_panel_layouts_traditional]]
+=== Traditional Layout
+
+The Traditional layout was the default Ubuntu MATE Layout prior to release 18.04.
+It has a classic look of Linux with a menu-bar (Applications, Places, System) in the top left, clock in the top right, and a panel with the list of open applications at the bottom.
+The menu for each application appears at the top of the application's window.
+This is the traditional way application menus appear on Microsoft's windows. 
+
+image::figures/traditional-layout.png[]
+
+[[_panel_layouts_contemporary]]
+=== Contemporary Layout
+
+The Contemporary layout has the classic look of Ubuntu MATE's default Traditional layout, with a menu in the top left, clock in the top right, and a panel with the list of open applications at the bottom.
+A significant difference from the Traditional layout is that, in the Contemporary layout, each application's menu always appears in the top panel rather than within the individual application's window.
+Called the "Global Menu," this feature was introduced for Ubuntu MATE 17.10 and is implemented in the traditional way Apple handles menus for its application windows. 
+
+image::figures/contemporary-layout.png[]
+
+[[_panel_layouts_redmond]]
+=== Redmond Layout
+
+The Redmond layout is similar to Microsoft Windows, with a single taskbar containing a menu, a list of open applications, and a clock at the bottom of the screen.
+Each application's menu appears at the top of that application's window in the traditional Windows way.
+Another distinctive feature of the Redmond layout is the "advanced menu" that provides a configurable list of favorite applications as well as an optional simple list of all applications.
+This will be familiar to users of the Linux Mint distribution. 
+
+image::figures/redmond-layout.png[]
+
+[[_panel_layouts_cupertino]]
+=== Cupertino Layout
+
+The Cupertino layout is similar to Apple's macOS with a panel at the top of the screen and a dock at the bottom.
+The dock is used to display the pinned and open applications, and to launch applications.
+Of course, this layout uses the Global Menu so that the application menus always appear in the top panel rather than on the application windows, in the traditional macOS way.
+You'll notice one distinctive difference between the Cupertino layout's Ubuntu MATE logo icon in the top left corner, and macOS's Apple logo icon.
+Instead of a small menu that gives you access to some basic Apple system tools, the Ubuntu MATE icon gives you access to the entire menu of applications, utilities, and system tools. 
+
+image::figures/cupertino-layout.png[]
+
+
+[[_panel_layouts_pantheon]]
+=== Pantheon Layout
+
+The Pantheon layout is a blend of the Contemporary layout and the Cupertino layout.
+It has both a menu in the top left and a dock at the bottom of the screen to display pinned and running applications.
+Each application's menu appears at the top of that application's window, just as it does in the Redmond layout. 
+
+image::figures/pantheon-layout.png[]
+
+[[_panel_layouts_mutiny]]
+=== Mutiny Layout
+
+If you have tried other Ubuntu flavors and you like the look of the Unity desktop, you'll find the Mutiny layout familiar.
+It mimics, as closely as possible, the Unity 7 interface used in traditional Ubuntu through 2017.
+Mutiny uses the Global Menu which displays application menus in the top panel and not in the application windows.
+Mutiny also has a dock of icons on the left of the screen to launch applications, show pinned applications, and show running applications. 
+
+image::figures/mutiny-layout.png[]
+
+[[_panel_layouts_netbook]]
+=== Netbook Layout
+
+Designed specifically for small screens, the compact Netbook layout has a single taskbar, menu, clock, and list of open applications at the top of the screen.
+There is no dock or panel at the bottom.
+That way everything is accessible no matter how small your screen. 
+
+image::figures/netbook-layout.png[]
+
+[[_personalization_background]]
+== Desktop Background
+
+image:apps/appearance.png[] Most desktop environments allow you to change the background wallpaper by right-clicking on the desktop itself, then selecting the appropriate option from the context menu that appears.
+Ubuntu MATE is no exception. 
+
+. Right click on the desktop and select``Change Desktop Background``. If you prefer you can also do it via``Menu`` > ``Control Center`` > ``Appearance`` > ``Background``.
+. Select the image you want to use.
+. If you have a picture on your computer's hard drive that you want to use, click the Add button, locate the file, and then click [Open].
+. Your background changes immediately. Click [Close]
+
+image::figures/change-background.png[]
+
+.Note
+[NOTE]
+====
+You can use the link on the lower left to download more images from the Internet.
+Always make sure you use only trusted sites to obtain new background images. 
+====
+
+[[_personalization_themes]]
+== Themes
+
+[[_themes_themes]]
+=== Changing the Theme
+
+image:apps/appearance.png[] A desktop theme can include the set of fonts and colors used on your desktop, the size and style of icons, the size, shape and color of the borders of each window, whether there are 3-D or animation effects, and even whether the buttons have icons.
+Changing your theme is just as easy as changing background wallpaper. 
+
+``Menu`` > ``Control Center`` > ``Appearance`` > ``Theme``
+
+Select the theme you want to use from the list.
+Click [Close]
+
+image::figures/change-themes.png[]
+
+.Note
+[NOTE]
+====
+You can use the link on the lower left to download more themes from the Internet.
+Always make sure you use only trusted sites to obtain new themes. 
+====
+
+[[_personalization_panels]]
+== Panels
+
+[[_panels_modify]]
+=== Modifying the Panels
+
+image:apps/desktop.png[] The bars at the top and bottom edges of Ubuntu MATE's Traditional Layout are called Panels.
+Apple's macOS has a menu panel at the top edge of the screen.
+The icons that are typically at the bottom of a macOS desktop are actually in a dock and not truly in a panel.
+The single panel in Windows is known as the "taskbar" and is typically located at the bottom edge of the screen.
+The top and bottom panels of Ubuntu MATE can be easily modified in many ways and moved into a different position on the screen.
+You can also have more or fewer than two panels if you wish. 
+
+- Right-click a blank space in the panel and choose ``Properties`` from the menu. 
+
+image::figures/panel-properties.png[]
+
+guimenuitem . From within the dialog box, you can edit [label]#Orientation# to choose whether you want the panel at the top, at the bottom, or on one of the sides of your screen. 
+. You can increase the size of the panel, and its corresponding icons. 
+. Choose the [label]#Expand# checkbox to make the panel go completely across the screen. Uncheck it to make it behave more like a dock. 
+. Use the [label]#Show hide buttons# setting with [label]#Expand# unchecked to make buttons appear at either end of the panel to let you adjust its size. 
+. The [label]#Autohide# setting causes the panel to vanish when you move the mouse cursor away from it and reappear when your mouse reaches the edge of the screen where you placed the panel. 
+. The [label]#Background# tab gives you more options for the appearance of the panel, including the ability to make it completely transparent, a solid color, or add a graphic background image. 
+. Click [Close] to complete your modifications for this panel. 
+To add an additional panel, right-click an existing panel and ch>oose ``New Panel``. 
+Right-click the new panel you just created (or any existing panel) and choose ``Add to panel`` to add launchers, monitors, and other panel items.  Now start over at step one, above, and edit the preferences for your shiny new panel! 
+
+[[_personalization_icons]]
+== Desktop, Panel, and Menu Icons
+
+[[_icons_icons]]
+=== Create Application Icons From the Menus
+
+image:apps/desktop.png[] Ubuntu MATE makes it very easy to add icons, also referred to as shortcuts or launchers, to your desktop for your most frequently used applications.
+Here, you'll see how to add the word processor icon to your desktop.
+The process is exactly the same for any application that appears in the Ubuntu MATE menus. 
+
+These are the steps to follow: 
+
+. Locate the application in the menu. For the word processor application, select ``Menu`` > ``Office``. (If you have chosen the Traditional Panel Layout, select ``Applications`` > ``Office``.) 
+. Now locate, but do not click on the [app]``LibreOffice Writer`` icon. Right-click on 
+``LibreOffice Writer``. From the context menu that appears, select 
+``Pin to desktop``.
+(If you have chosen the Traditional Panel Layout, select ``Add to desktop``.
+
+image::figures/pin-to-desktop.png[]
+
+image::figures/add-to-desktop.png[]
+
+The finished launcher will appear on your desktop as shown below. You can move it around and place it anywhere you want on the desktop. 
+
+image::figures/writer-desktop-icon.png[]
+
+.Note
+[NOTE]
+====
+If you are using the Brisk menu, the same context menu lets you pin the icon as a shortcut icon to the Favourites menu! You find the Favourites menu at ``Menu`` > ``Favourites``. 
+====
+
+[[_personalization_desktop_icons]]
+=== Create System Icons Using MATE Tweak
+
+If you want to create System icons for such things as your "Computer," your "Home" folder, the "Trash" icon, an icon to access locations on your "Network," or "Mounted Volumes" like USB drives and DVD drives, then Ubuntu MATE makes that easy for you, too.
+You simply use the [app]``MATE Tweak`` application, located in [app]``Control Center`` to select the icons you want to be displayed.
+The screenshot below shows your "Desktop" options.
+Ensure that the [label]#Show Desktop Icons# setting is checked to be certain that the icons you've selected are visible on your desktop. 
+
+image::figures/mate-tweak.png[]
+
+[[_icons_menu_icons]]
+=== Editing the Icons in the Menu
+
+Ubuntu MATE provides you with the ability to edit the main menu in the top panel.
+This can be very helpful if, for example, you have created a bash script that you want to launch from the menu like any other application.
+You can even give it a custom icon. 
+
+_Using a Script:_
+
+In this example, you'll see how a custom icon can be added to run a script that can be used to toggle on and off 100% screen brightness and a sleep delay.
+Remember, this is just one example of how you can add something to the menus.
+You can add a menu item for a script like this, you can add a menu item for an application, or you can add a menu item to open a specific document in a word processor or other application.
+It's up to you.
+To illustrate, the screenshot below shows the "toggle-awake.sh" script open for editing in the [app]``Pluma`` text editor application.
+The [app]``Pluma`` theme has been switched to a brighter one using its 
+``Preferences``settings to make the text easier to read here. 
+
+image::figures/example-script.png[]
+
+.Note
+[NOTE]
+====
+If you are writing scripts, the [app]``Pluma`` editor is an excellent tool to use.
+As you can see by the colored text in the script above, it is designed for this with text highlighting, and there other similar features built-in. 
+====
+
+.Note
+[NOTE]
+====
+If you create a folder named "bin" in your home folder, Ubuntu MATE recognizes any file you place in that folder as a potential executable program or script.
+If you change the file permissions to allow it to run as any other program.
+Right-click on the file in the [app]``File Manager``, select ``Properties`` > ``Permissions`` > ``Allow executing file as program``. 
+====
+
+_Adding the Menu Item:_
+
+. In the menus, select ``Menu`` > ``Control Center`` > ``Main Menu``. 
+. In the left panel, select the category under which you want your menu item to appear. For this example, we'll use the "Accessories" category. 
+. Click the [New Item] button to start creating your new menu item. 
+. To create an icon that launches an application select ``Application`` as the _[label]#Type#_.  Click in the field labeled _[label]#Name#_ and enter the name you want to appear in the menu. In the example, we named our menu item "Awake". 
+
+image::figures/create-launcher.png[]
+
+In the _[label]#Command#_ field, click the [Browse] button then navigate to, and open, the application or script you want to run. Alternatively, in the _[label]#Command#_ field, you can type a command as you would enter it in a terminal to run the application. This could simply be the name of the application, the name of your script, or even a long, complex command. 
+. Next, in the _[label]#Comment#_ field, enter a description if you wish one to appear when you hover over the icon in the menu. 
+. To change the icon for the menu item, click on the icon that is displayed by default. It's a button! Browse the icons and pixmap folders to select the icon you want to use, then click [Open]. For this example, we use a coffee cup icon located here: 
+
+----
+/usr/share/icons/Humanity/categories/48/applications-java.svg
+----
+. Click the [OK] button to create your menu item. It now appears in the list of menu items in the category you chose. It's at the bottom of the list. You can change its position in the menu by selecting your new menu item and using the [Move Up] and [Move Down] buttons. 
+. Close the editor to begin using your new menu entry. 
+
+image::figures/new-menu-item.png[]
+
+
+[[_personalization_display]]
+== Display Setting
+
+[[_display_displays]]
+=== Multiple Displays
+
+image:apps/gnome-display-properties.svg[] Ubuntu MATE makes connecting multiple monitors and changing the resolution quite easy.
+Changing monitor preferences is accomplished by selecting ``Menu`` > ``Control Center`` > ``Displays``  in the menus. 
+
+. When you connect a second monitor, it will likely connect automatically. If it doesn't, simply click on the black rectangle that represents the second monitor and choose the _[label]#On#_ setting. When the display is switched to "On" the rectangle will be in color. 
+
+image::figures/display-enable-2nd-display.png[]
+
+. Select the resolution settings you prefer. The list includes all of the resolutions that the monitor is capable of displaying. In this example, an HDMI cable is used to connect a 1080P television as a monitor. 
+
+image::figures/display-set-2nd-monitor-resolution.png[]
+
+To apply the settings, click the [Apply] button. The new configuration is set temporarily. If you don't confirm the settings, for example, if the settings don't work properly, after a short delay the configuration will revert to the previous settings. 
+
+image::figures/display-confirm-change.png[]
+
+Click on [Keep This Configuration] to confirm your changes. 
+
+[[_display_hidpi]]
+=== High-Resolution Monitors
+
+Linux support for high-resolution computer displays (HiDPI or 4K displays) is https://ubuntu-mate.community/t/workarounds-for-apps-that-dont-support-hidpi[still being perfected].
+However, with the 18.04 release, the Ubuntu MATE team has released a utility that automatically detects your 4K display and sets the appropriate screen scaling for you.
+Without scaling, you may find that 4K displays, like screens on such modern laptops as the Dell XPS 13, or external 4K monitors have tiny icons and fonts that make them difficult to see and to use.
+With HiDPI support, Ubuntu MATE lets you take advantage of the full resolution of your beautiful 4K display and still have everything readable. 
+
+Of course, Ubuntu MATE allows _you_ to make the decision as to whether to use HiDPI scaling or not.
+Here is how to make changes to the HiDPI settings. 
+
+. Before you begin modifying your screen settings, if it wasn't selected by default, you can use the instructions in the previous section to ensure that your display is set to the highest resolution available. If supported, this will be the 4K resolution for your HiDPI display. 
+. Open the [app]``MATE Tweak`` application by selecting menu:Menu[Control Center > MATE Tweak]. Choose the ``Windows`` icon in the pane on the left side of the [app]``MATE Tweak`` window. 
+. In the _[label]#HiDPI#_ section, adjust the setting labeled _[label]#Select#_ a window scaling factor. Choose ``Auto-detect``to have Ubuntu MATE automatically detection and set HiDPI window scaling when it detects a high resolution monitor.
+Choose ``Regular`` if you never want scaling applied. Choose ``HiDPI`` if you always want scaling applied. 
+
+image::figures/enable-hidpi.png[]
+
+Your new HiDPI settings will take effect immediately. No need to log out! 
+
+[[_personalization_power]]
+== Power Management
+
+[[_power_strategies]]
+=== Strategies for Maximizing Battery Life
+
+image:apps/mate-power-manager.png[] Today you can install Linux on almost any computer hardware -- Mac or Windows PC.
+With a computer like one from designed-for-Linux lines such as System76, Entroware, OpenSourcePC, or Dell XPS Developer Edition, you can be sure you'll have the "just works" experience with whatever version of Linux you choose to install.
+But whether you choose a computer with Linux pre-installed, or you install it on hardware you already own, out-of-the-box laptop battery life can sometimes be disappointing.
+Here are some things you can do to improve your laptop's longevity when you don't have a connection to AC power. 
+
+[[_power_power_management]]
+=== 1. Adjust power management settings
+
+The Power Management Settings, found in the [app]``Control Panel``, allows you to control when the computer sleeps or hibernates, and how the display behaves.
+Focus on the [label]#On Battery Power# settings.
+If your laptop doesn't behave when hibernating, use the "sleep" or "suspend" setting when closing the lid and when the computer is idle. 
+
+image::figures/PM_Battery.png[]
+
+In addition to using the sleep and suspend settings, reducing the backlight brightness and dimming the screen while idle can reduce the battery drain while operating on battery power. 
+
+[[_power_brightness]]
+=== 2. Adjust screen brightness
+
+A laptop's biggest battery usage is typically in powering the LCD screen.
+The brighter the screen, the more power is consumed.
+On some models, reducing backlight brightness from 100% to about 50% or even 30% provides enough illumination to see the screen comfortably except when outdoors, and dramatically improves battery life.
+That adjustment is usually controlled by hardware keys on your keyboard.
+If you can find a brightness setting that allows you to easily read the screen, but no brighter, then you'll extend your on-battery time for sure.
+You'll find the software-based brightness adjustment on the _[label]#On AC Power#_ tab.
+Its setting applies to both when you are on AC (mains) power and when you are on battery.
+However, if you also choose _[label]#Reduce backlight brightness#_ on the _[label]#On Battery Power#_ tab, then when using battery power, your display is actually adjusted to 50% of the display brightness you choose. 
+
+image::figures/PM_AC.png[]
+
+[[_power_conserve]]
+=== 3. Turn off what you don't use
+
+Don't use a Bluetooth mouse, keyboard or headphones? Turn off your Bluetooth adapter by right-clicking on the Bluetooth icon in the top panel and selecting ``Turn Bluetooth Off``. The computer uses power searching for Bluetooth devices.
+Turn off similar settings for other devices or services (like WiFi) that you never or rarely use. 
+
+image::figures/bluetooth-off.png[]
+
+[[_power_tlp]]
+=== 4. Use TLP
+
+[app]``TLP`` is an advanced power management utility for Linux that can improve your battery life tremendously. [app]``TLP`` optimizes power settings automatically on startup and every time you change the power source.
+The Ubuntu MATE 16.04 release came with the [app]``TLP`` command-line utility pre-installed and pre-configured.
+If you are using a later release of Ubuntu MATE that doesn't install it by default, look in the [app]``Software Center`` for [app]``TLP``.
+It'll likely be there, ready to install.
+The screenshot, below, shows the default configuration of [app]``TLP`` on a Dell XPS 13. 
+
+image::figures/tlp-stat.png[]
+
+[[_power_new_battery]]
+=== 5. Get a new battery
+
+Although today's battery technology is vastly superior to that of just a few years ago, batteries have a finite lifetime.
+They don't develop a "memory" when you "top them up" like they used to, but they do have a limited number of full charge cycles they can handle before they expire.
+If your laptop's battery will no longer hold a charge, maybe it's time to replace it.
+Hopefully, your model allows you to do that.
+If not, you may be tethered to AC power until you can replace your computer. 
+
+[[_personalization_screensaver]]
+== Screensaver
+
+[[_screensaver_battery_life]]
+=== Strategies for Maximizing Battery Life
+
+image:apps/screensaver.png[] The concept of a screensaver was important in the days when the cathode ray tube (CRT) was the only type of computer monitor available.
+In today's world, this software that originally prevented a permanent image from burning into your CRT screen is used mainly to provide an interesting animated image on the monitor when you step away.
+Although the power management settings can lock your screen, so too can the screensaver.
+It's your choice whether to use the screensaver or the power management settings to manage screen locking.
+If you don't care for an animated screensaver, you can choose to disable it altogether. 
+
+image::figures/screensaver.png[]
+
+The screensaver settings can be found at ``Menu`` > ``Center`` > ``Screensaver``.
+Choose from the available default images or choose to use the images you saved in your pictures folder as the screensaver.
+You can also choose a simple blank screen or random images.
+The time setting that appears below the image preview allows you to control the amount of time it takes after your mouse and keyboard have been idle before the screensaver activates.
+Uncheck _[label]#Activate screensaver when computer is idle#_ to completely disable the screensaver.
+If you choose to use the screensaver, a check mark in the setting _[label]#Lock screen when screensaver is active#_ ensures that you must enter your password to dismiss the screensaver.
+Unchecking the box means that the screensaver will stop as soon as you move the mouse or type on the keyboard. 
+
+[[_page.about]]
+== • • • ABOUT THE UBUNTU MATE PROJECT • • •
+
+image:apps/system.png[] Ubuntu MATE is a stable, easy-to-use operating system with a configurable desktop environment.
+It is ideal for those who want the most out of their computers and prefer a traditional desktop metaphor.
+With modest hardware requirements, it is suitable for modern workstations, single board computers and older hardware alike.
+Ubuntu MATE makes modern computers fast and old computers usable. 
+
+[[_about_why]]
+=== Why Ubuntu MATE?
+
+Ubuntu MATE is a desktop distribution (variation) of GNU/Linux -- a dependable, secure, capable, and modern computer system that rivals all others in popularity and usage.
+Unlike other operating systems, Linux is used: 
+
+* on most of the world's fastest and most powerful supercomputers 
+* on many of, if not most of, the computers that make up the backbone of the Internet 
+* and on corporate servers that require stability and reliability 
+
+The Ubuntu MATE operating system is more secure, and better supported than the operating system pre-installed on most home computer hardware today. 
+
+Using Ubuntu MATE provides you with the freedom to run a complete, full-featured operating system, pre-configured with most (if not all) of the applications you will need for your daily computing.
+Change anything about the way it looks, the way it works, or the applications it runs to suit your taste. 
+
+[[_about_objectives]]
+== Objectives
+
+image:apps/system.png[] Ubuntu MATE has a number of guiding objectives and goals. 
+
+* Accessible to all, regardless of language and physical ability. 
+* Increase both Ubuntu and MATE Desktop user adoption 
+* Ubuntu alternative for computers that aren't powerful enough to run a composited desktop. 
+* First choice Ubuntu platform for remote workstation solutions such as LTSP and X2Go. 
+* Recreate the halcyon days of Ubuntu for users who prefer a traditional desktop metaphor. 
+* Use themes and artwork similar to Ubuntu so that Ubuntu MATE is immediately familiar. 
+* When possible contribute to Debian so both the Debian and Ubuntu communities benefit. 
+* Software selection will favor functionality and stability over lightness and whimsy. 
+
+
+[[_about_hardware]]
+== Hardware Requirements
+
+image:apps/intel.png[] image:apps/amd.png[] image:apps/nvidia.png[] 
+
+Ubuntu MATE is designed to run on almost any computer hardware.
+Of course, Ubuntu MATE runs particularly well on the newest, fastest hardware, but it also runs well on almost any vintage of machine.
+In fact, an older computer designed during the Windows XP era can easily be outfitted with the new, modern and fully-supported Ubuntu MATE and it will likely run better than it did with the previously installed operating system.
+Of course, Ubuntu MATE will run much more efficiently if your computer meets or surpasses the recommended requirements. 
+
+|===
+|• • •  MINIMUM  • • • |• • •  RECOMMENDED  • • •
+
+|Pentium M 1.0 gigahertz | Core 2 Duo 1.6 gigahertz
+|1 gigabyte (GB) of RAM | 2 gigabytes (GB) RAM
+
+|9 gigabytes (GB) of available space on the hard disk
+|16 gigabytes (GB) of available space on the hard disk
+
+|Bootable DVD-ROM drive
+|Bootable USB flash drive
+
+|Keyboard and mouse (or other pointing device)
+|Keyboard and mouse (or other pointing device)
+
+|Video adapter and monitor with 1024 x 768 or higher resolution
+|3D capable video adapter and wide screen monitor with 1366 x 768 or higher resolution
+
+|Sound card
+|Sound card
+
+|Speakers or headphones
+|Speakers or headphones
+|===
+
+[[_about_downloading]]
+== Downloading Ubuntu MATE
+
+image:apps/direct-download.png[] The Ubuntu MATE website's https://ubuntu-mate.org/download/[download page] gives you several options for downloading an ".iso image file" that you can use to create a CD, DVD or USB drive that allows you to try Ubuntu MATE without changing your computer at all, with an option to install it permanently later.
+You will need at least 512MB of RAM to install from this image. 
+
+image::figures/download-selections.jpg[]
+
+
+[[_downloading_which_version]]
+=== Which Version Should I Choose?
+
+*Your first decision will require you to know a little about your computer's hardware specifications.*
+
+- Choose _64-bit_ if your computer has more than 3GB of RAM, with a 64-bit capable Intel or AMD processor. This is also a good choice for UEFI PCs booting in CSM mode and for modern Intel-based Apple Macs. 
+- Choose _32-bit_ if your computer has less than 2GB of RAM, and an Intel or AMD processor. This choice is good for aging PCs with low-RAM resources, and older Intel-based Apple Macintosh systems. 
+- Choose _PowerPC_ if you have an older generation PowerPC-based hardware, like Apple Macintosh G3, G4 and G5; Apple iBooks and PowerBooks; and IBM OpenPower 7xx Machines. 
+- The _Raspberry Pi_ version is for aarch32 (ARMv7) computers, like Raspberry Pi 2 and Raspberry Pi 3. 
+
+*Your second decision is between the version labeled Long Term Support (LTS) release and a normal release. Here is some information about each that will help you choose the right release for you. *
+
+- Ubuntu MATE releases a new version every six months. Every two years, the release is a Long Term Support Release. 
+- Normal support releases are supported for _nine months_ while LTS releases are supported for __five years__. 
+- "Support" includes: 
+** Updates for potential security issues and bugs (not new versions of software) 
+** Availability of Commercial support contracts from Canonical 
+** Support by Landscape, Canonical's server management toolset designed for enterprises 
+- Ubuntu MATE's LTS release (five-year support) is the best choice for most users. It is well-supported and will run all the software you depend on. It's regularly updated with new hardware support and performance improvements, so you don't need to be concerned that everything will work properly. 
+- If you are a developer who needs the latest versions of certain packages, the "normal" six-month release cycle (nine-month support) might be for you. If you want to be on the bleeding edge, have the latest versions of all your software, and use the latest features before they make it to the LTS version of Ubuntu MATE, choose the "normal" cycle of six-month releases. Note that the "bleeding edge" refers to the fact that some of these latest versions may not perform as reliably as the versions supported within the LTS releases. 
+
+[[_downloading_download]]
+=== Download
+
+Once you have determined which version to download, scroll down the web page to the section labeled _[label]#Download Links#_. 
+
+. Click on the link for the file name that ends in ".iso". 
+
+----
+Download icon.
+ubuntu-mate-18.04-desktop-amd64.iso
+----
+
+. Select a location for your downloaded file, if prompted, and click ``Save`` to begin your download. 
+
+.Note
+[NOTE]
+====
+Now that you have the file, the next topic will discuss how to prepare installation media.
+It also describes how to try Ubuntu MATE without changing your computer at all, or to install Ubuntu MATE permanently onto your computer. 
+====
+
+[[_downloading_installing]]
+== Installing Ubuntu MATE
+
+[[_installing_media]]
+=== Creating Installation Media
+
+image:apps/dvd.png[] The .iso file you downloaded using the instructions in the previous topic doesn't do you much good on its own.
+You need to put that file in a form that will allow you to install it on your computer.
+This section describes how to create the installation media (CD, DVD or USB device) that will allow you to do just that.
+As a note, installable media is often referred to as "live" media because using this method you run Ubuntu MATE directly from the media, live.
+This allows you to try Ubuntu MATE on your computer without installing, and without changing _anything at all_ on your computer.
+When you shut down and remove the "live" media, your computer is back to normal. 
+
+The quickest and easiest method of installation is using a USB drive, also referred to as a "thumb drive" "pen drive" or "USB stick." You can also use a CD or DVD to install Ubuntu MATE, but this method is recommended only for older computers or where the computer can't be configured to boot from a USB device.
+For information on how to make a CD or DVD for installation using Windows, macOS, and Ubuntu, see the "https://help.ubuntu.com/community/BurningIsoHowto#Burning_the_ISO_on_to_a_DVD[Burning ISO HowTo]" article on Ubuntu help. 
+
+Most likely, if you are considering a switch to Ubuntu MATE, you are using Windows.
+This is a link to the official Canonical (parent company behind Ubuntu) method for https://www.ubuntu.com/download/desktop/create-a-usb-stick-on-windows[Creating a bootable USB stick on Windows] using a tool called Rufus. 
+
+A popular cross-platform (Windows, macOS, and Linux) app for creating a "live" USB drive is http://unetbootin.github.io/[UNetbootin].
+This excellent tutorial in the Ubuntu MATE community provides step-by-step instructions for using UNetbootin to create a "live" USB drive: "https://ubuntu-mate.community/t/how-to-use-unetbootin/672[How to use Unetbootin]." 
+
+[[_installing_preparation]]
+=== Preparing For Installation
+
+Ubuntu MATE is relatively simple to set up, whether you're looking to replace your existing operating system or install Ubuntu MATE alongside an existing one - such as  Microsoft Windows or another GNU/Linux distribution. 
+
+Step one: _Backup!_
+
+Back up any important data to another storage device before you start to install in case something goes horribly wrong! Save all of your important files and folders to an external USB drive or a 2nd hard drive.
+DO NOT save anything to the same drive you intend to use for Ubuntu MATE.
+Once you start, there is no going back! Here is an article with some considerations around backups: http://goinglinux.com/articles/Backups.html[Backup Strategies For Your Computer]
+
+Step two: _Plan for recovery_
+
+If you have a recovery partition and your current system allows you to create recovery disks for your computer, stop reading and go do that now.
+If you decide that Ubuntu MATE is not for you, this will allow you to reinstall your original operating system.
+Then you can use the data backup you made in step one to restore all your data. 
+
+Step three: _Decide what to do with the recovery partition._
+
+If your computer has a recovery partition, if you format over the recovery partition, you will not be able to recover your previous operating system.
+Only format or remove the recovery partition if you are certain that you don't want it anymore. 
+
+[[_installing_installing]]
+=== Installing
+
+Now that you've created the installation media, you've done your backup, and you've planned for recovery (you DID do all that right?) you are ready to install (or just try) Ubuntu MATE.
+For most relatively modern computer, the installation process will take well under an hour to complete.
+Stay connected to the Internet to install all available updates.
+Plug your device into a power source if it is running on battery power. 
+
+. Completely shut down your computer. 
+. Insert the USB stick. 
+. Start the computer and watch the screen to determine which function key to press to change the boot device. The message flashes by quickly, right at the bottom edge of the screen, but the most frequently used keys are [F1], [F2], [F4], [F12] and the [Del] key. It depends on your computer's manufacturer. If your computer boots up normally and you don't see Ubuntu MATE startup, shut down and try again. 
+. When you get to the screen that lets you change the boot device, select the menu entry that represents the Ubuntu MATE live USB stick. Press the key that lets you boot using the USB stick. That's usually the [Enter] or [F10] key. If you need help, try this article from How-To Geek: "http://www.howtogeek.com/129815/beginner-geek-how-to-change-the-boot-order-in-your-computers-bios/[How to Boot Your Computer From a Disc or USB Drive]" 
+. Once the computer has started loading Ubuntu MATE, you will be given some options. Select the option: 
+
+Try Ubuntu MATE.
+
+image::figures/try-um.jpg[]
+
+Once Ubuntu MATE has booted successfully, you will be able to use the computer as though Ubuntu MATE were installed. It's not. It is running from the USB stick. The live session you are currently in right now provides a good opportunity to test Ubuntu MATE without modifying your computer, allowing you to test that all of your peripherals are working as intended before committing to installing it on your machine. Once you are ready, double-click the installation icon on the desktop. 
+. You don't need to connect to the Internet to complete the installation of Ubuntu MATE, but if you want to use the web browser, or if you want to install additional updates during the installation, you should connect your network cable, or connect to Wi-Fi. Click the [app]``Network Manager`` icon in the upper right corner of the screen (near the clock) and select your SSID for your wireless network. If prompted, enter the passcode, click the [Connect] button and you will be connected. 
+. To begin the installation, double-click the [app]``Install Ubuntu MATE`` icon on the desktop. 
+
+image::figures/install-um.png[]
+
+. Select your language. Press the [Continue] button. 
+. If you have an Internet connection, choose the option to download updates while installing. For first-time Ubuntu MATE users, you should also choose the option to install third-party software to ensure a smooth transition to your new operating system. Press the [Continue] button. 
+
+image::figures/install-extras.png[]
+
+.Minimal Installation
+[TIP]
+====
+[label]#Minimal Installation# is a new option for release 18.04.
+Presented as a checkbox option in the installer, it will install just the MATE Desktop, its utilities, its themes and Firefox.
+All the other applications such as office suite, email client, video player, audio manager, etc.
+are not installed.
+This is a useful option if you have minimal disk space or you wish to select applications other than the default software provided with Ubuntu MATE. 
+====
+
+. If you are sure that you want to completely erase every trace of your previous operating system, choose the option: 
+``Erase disk and install Ubuntu MATE``.
+If you are not sure, then choose the option: ``Install Ubuntu MATE alongside`` your original operating system.
+This will allow you to choose which operating system to use when you start your computer.
+If you chose to install alongside, then press the [Continue] button. 
+. Press the [Install Now] button. 
+. Read the message on the screen to confirm your choices, then press the [Continue] button to start the installation. 
+. Select your location. Press the [Continue] button. 
+. Choose your preferred keyboard layout. Press the [Continue] button. 
+. Enter your full name, a name for your computer, a username, and a password. You will use the username and password when you log into your computer. Press the [Continue] button. 
+. Now wait just a few minutes while the installation completes, and updates are downloaded and installed. 
+. Press the [Continue Testing] button if you wish to continue to use the live environment, or press the [Restart Now] button to reboot and log into your new installation of Ubuntu MATE! 
+. When prompted, remove the installation medium, then press [Enter]. Your computer will restart (if that's what you selected) and you will be prompted for your password to complete the log in process. 
+
+[[_page.support]]
+== • • • SUPPORT • • •
+
+image:apps/help.png[] If you can't find the answer in this guide, many of the answers are available in the vast resource that is the Ubuntu MATE website.
+Often, the fastest and easiest way to get answers to your questions about how to use Ubuntu MATE is to ask the friendly and helpful https://ubuntu-mate.org/community/[Ubuntu MATE community].
+The next few topics in this guide describe using this guide, the website, the community, and the wiki, and provide a bit more detail about the kind of support each can provide. 
+
+[[_support_guide]]
+== The Ubuntu MATE Guide
+
+image:apps/community.png[] The [app]``Ubuntu MATE Guide``, found in the Ubuntu MATE menus at menu:Menu[Accessories > Ubuntu MATE Guide], is for users needing a little extra help while learning to use Ubuntu MATE. 
+
+In the early days of home computing, computers came with thorough documentation.
+They included a set of manuals, detailing every button, port, light, software application and software feature.
+Although this guide doesn't attempt to come close to that level of detail, it's been created for you and other computer users like you who want a reference detailed enough to help you to learn about Ubuntu MATE and its applications and to build your confidence and competence in using them to get things done. 
+
+.Ubuntu MATE's Applications
+[TIP]
+====
+Many of the applications available in Ubuntu MATE are also available in other flavors of Ubuntu and in other distributions (versions) of Linux. 
+====
+
+The guide is divided into these main topics: 
+
+* Overview: Ubuntu MATE is modern, full-featured, flexible and secure.
+* MATE's Applications: Applications provided by the MATE Desktop Environment.
+* Ubuntu MATE's Applications: Pre-configured with applications you use for daily computing.
+* Personalizing Ubuntu MATE: Making Ubuntu MATE your own.
+* About the Ubuntu MATE Project: The Ubuntu MATE project, objectives, hardware requirements, and downloading & installing Ubuntu MATE.
+* Support: Getting the help you need to use Ubuntu MATE.
+* Keyboard shortcuts: Some common keyboard shortcuts using Ubuntu MATE, and equivalents you may have used with your previous operating system.
+* FAQ: Frequently asked questions.
+
+image::figures/UMGuide.png[]
+
+.Searching For Help
+[TIP]
+====
+Scrolling through the guide and jumping from topic to topic is fine if you want to read the [app]``Ubuntu MATE Guide`` like a manual.
+If you are looking for help on a particular topic, clicking the blue magnifying glass icon in the upper right corner of the help window opens a search tool.
+Type what you want to search for into the search box and press [Enter] to see a list of topics related to your search. 
+====
+
+[[_support_website]]
+== The Ubuntu MATE Website
+
+image:apps/community.png[] The Ubuntu MATE website, located at https://ubuntu-mate.org provides a wealth of information.
+It provides lots of details about the operating system and even a few screenshots to give you a feel for how it looks. 
+
+image::figures/website.png[]
+
+[[_website_about]]
+=== About
+
+Click the https://ubuntu-mate.org/about/[About] link for a page that breaks down what exactly Ubuntu MATE is in easy to understand language. 
+
+[[_website_blog]]
+=== Blog
+
+The https://ubuntu-mate.org/blog/[Blog] link reveals the place where the Ubuntu MATE project leaders thank the community for its support of Ubuntu MATE, make announcements, and provide updates on planned releases. 
+
+[[_website_community]]
+=== Community
+
+Click the https://ubuntu-mate.org/community/[Community] link for ways you can connect with the Ubuntu MATE community.
+For additional information see <<_page.community>>. 
+
+[[_website_download]]
+=== Download
+
+Click the https://ubuntu-mate.org/download/[Download] link to get the latest release of Ubuntu MATE to install on your computer, or give to your friends to try on their computers. 
+
+[[_website_team]]
+=== Team
+
+The https://ubuntu-mate.org/team/[Team] link lists the troupe of all-star international cabaret artists responsible for making Ubuntu MATE a thing. 
+
+[[_website_donate]]
+=== Donate
+
+The https://ubuntu-mate.org/donate/[Donate] page details a crowdfunding campaign with three main objectives: 
+
+. Fund the Ubuntu MATE project`'s hosting and bandwidth costs. These include domain name registrations, server hosting and bandwidth costs to provide a website and Discourse powered community space that is not reliant on social networks. 
+. Fund the full-time development of Ubuntu MATE and MATE Desktop and also be able to offer financial rewards to contributors of either project. Help subsidize the travel expenses of team members to represent MATE Desktop and Ubuntu MATE at FLOSS conferences. 
+. Support other Open Source projects that Ubuntu MATE depends upon. 
+
+
+[[_website_wiki]]
+=== Wiki
+
+The https://ubuntu-mate.community/wiki[Wiki] page on the Ubuntu MATE website provides tips, tricks, tutorials, and guides.
+If you are looking for some tutorials and tips for customizing and getting more out of your Ubuntu MATE Computer, then this is a great place to look.
+You'll find more about the Ubuntu MATE Wiki later in this guide. <<_page.wiki>>
+
+[[_website_shop]]
+=== Shop
+
+The https://ubuntu-mate.boutique/[Shop] link reveals the "Ubuntu MATE Boutique" where you can purchase Entroware computers, pre-installed with Ubuntu MATE, shirts, jackets, mugs, stickers and more! 
+
+[[_page.community]]
+== The Ubuntu MATE Community
+
+image:apps/community.png[] Posing your question to the Ubuntu MATE Community is the fastest and easiest way to get answers about how to use Ubuntu MATE. 
+
+The https://ubuntu-mate.org/community/[Community page on the Ubuntu MATE website] provides options in three categories for getting involved. 
+
+[[_community_discussion]]
+=== Discussion
+
+Join the conversation and get involved.
+Stop by to share your experiences, ask questions and discuss topics with other users and developers in our growing community. 
+
+Ubuntu MATE also has its own IRC channel, https://ubuntu-mate.org/irc/[#ubuntu-mate], on the http://freenode.net/[Freenode] network.
+The #ubuntu-mate channel is also home to matey, probably the smartest IRC bot in the world, EVER! 
+
+[[_community_social]]
+=== Social
+
+Ubuntu MATE is active on https://plus.google.com/communities/108331279007926658904[Google+], https://twitter.com/ubuntu_mate[Twitter], and https://www.facebook.com/UbuntuMATEedition/[Facebook]. 
+
+[[_community_development]]
+=== Community
+
+This is where you can get involved with Ubuntu MATE and with MATE Desktop development. 
+
+Found a Bug? This is where you'll find a link to submit your detailed and reproducible bug reports to Launchpad so that the relevant developers can fix them in future updates. 
+
+[[_page.wiki]]
+== The Ubuntu MATE Wiki
+
+image:apps/community.png[] If you are looking for some tutorials and tips for customizing and getting more out of your Ubuntu MATE Computer, then the Ubuntu MATE Wiki is a great place to look. 
+
+The https://ubuntu-mate.community/wiki[Wiki page on the Ubuntu MATE website] provides tips, tricks, tutorials, and guides. 
+
+[[_wiki_beginner]]
+=== Beginner's Corner
+
+image::figures/beginner.png[]
+
+Topics ideal if you are brand new to the world of Linux and Ubuntu MATE, topics related to the installation of Ubuntu MATE, and topics that answer frequently asked questions of common subjects. 
+
+[[_wiki_customization]]
+=== Customisation
+
+image::figures/customisation.png[]
+
+Topics relating to the background and general look and feel of your computer, topics related to the panels -- the bars (or docks) at the corners of your screen, and topics that involve replacing software with other components from other desktop environments or Linux distributions. 
+
+[[_wiki_window_manager]]
+=== Window Managers
+
+image::figures/window-manager.png[]
+
+You can change the window manager in [app]``MATE Tweak`` and this section describes topics related to [app]``Marco``, the default Window Manager and [app]``Compiz``, the Window Manager that can provide fancy effects. [app]``Marco``: This window manager composites using your CPU.
+On some systems, this can cause screen tearing. [app]``Compiz``: This window manager composites with your GPU.
+You can change this option in [app]``MATE Tweak``, however, older hardware and some graphics cards may not be compatible with this option. 
+
+[[_wiki_extras]]
+=== Software & Extras
+
+image::figures/software-extras.png[]
+
+Topics that offer assistance installing and customizing certain types of software and topics that involve changing parts of your system. 
+
+[[_wiki_raspberry_pi]]
+=== Raspberry Pi
+
+
+image::figures/raspberrypi.png[]
+
+Here are topics that apply specifically to the Raspberry Pi, topics that prepare you to use Ubuntu MATE on your Raspberry Pi, and topics with inspiration around what your Pi can do with Ubuntu MATE. 
+
+[[_wiki_dual_booting]]
+=== Dual Booting
+
+image::figures/dual-booting.png[]
+
+Topics relating to dual booting with Windows or Mac, BIOS vs.
+UEFI Booting, and how to make your Windows session bootable again if you remove Linux. 
+
+[[_page.shortcuts]]
+== • • • KEYBOARD SHORTCUTS • • •
+
+image:apps/keyboard-shortcuts.png[] Ubuntu MATE has many keyboard shortcuts that, by pressing a combination of keys, help you do things that normally require a mouse, trackpad, or another input device.
+This is a comparison of these keyboard shortcuts with those you might have used in your previous operating system. 
+
+.Note
+[NOTE]
+====
+Changing your theme or window manager in the [app]``MATE Tweak`` tool might change some of these shortcuts.
+These changes in behavior are indicated in the descriptions and tables that follow. 
+====
+
+Every major operating system makes use of a special hardware "meta key" on the keyboard.
+They are listed below, and for the purpose of running Ubuntu MATE on your computer hardware, the keys are equivalent with one another.
+In Linux documentation, the "meta key" is often referred to as the "Super key". 
+
+[cols="1,1", frame="bottom", options="header"]
+|===
+| KEY
+| DESCRIPTION
+
+
+| [⌘]
+| Apple OSX Command key (used on Apple keyboards)
+
+| [⊞]
+| The Microsoft Windows logo key (used on Microsoft-branded and many generic keyboards)
+
+| [Super]
+| The Ubuntu logo key or Tux penguin logo key, also known as the "Super" key (used on keyboards of computers pre-installed with Linux)
+|===
+
+
+Your keyboard's meta key can be used by Ubuntu MATE to activate menus and launchers as well as the many keyboard shortcuts that include the "Super" key.
+The MATE Dock Applet, used in the Mutiny layout, includes the ability to launch or switch to docked items based on their position in the dock using [Super] + [1], [Super] + [2], and so on.
+This will be familiar to users switching to Ubuntu MATE from Ubuntu's Unity 7 Desktop.
+As they are for users of the MATE Desktop in other Linux distributions, both the [Super] + [L] and the [Ctrl] + [Alt] + [L] key combinations are recognized as screen lock keyboard shortcuts in Ubuntu MATE. 
+
+.Do you need to enable the Super key?
+[TIP]
+====
+The Super key just works after you install Ubuntu MATE on most computer hardware.
+However, when you order a computer pre-installed with Linux from the manufacturer Dell, you will need to follow Dell's instructions on how to enable the Super key.
+Details are available from Dell's support website in a knowledge base article entitled, "__http://www.dell.com/support/article/us/en/19/how12108/how-to-enable-the-ubuntu-super-key-on-dell-oem-ubuntu-installations?lang=en[How to enable the Ubuntu super key on Dell OEM Ubuntu installations]__." Check your hardware manufacturer's documentation or website to determine if your computer's Super key requires similar setup. 
+====
+
+[[_shortcuts_common]]
+=== Common Application Shortcuts
+
+These shortcuts apply in most applications. 
+
+[cols="1,1,1,1", frame="bottom", options="header"]
+|===
+| SHORTCUT
+|  UBUNTU MATE
+| MacOS 
+| WINDOWS 10 
+
+| Meta Key
+| [Super]
+| [⌘]
+| [⊞]
+
+| Copy the selected text/object
+| [Ctrl] + [C]
+| [⌘] + [C]
+| [Ctrl] + [C]
+
+| Cut the selected text/object
+| [Ctrl] + [X]
+| [⌘] + [X]
+| [Ctrl] + [X]
+
+| Paste/insert the selected text/object
+| [Ctrl] + [V]
+| [⌘] + [V]
+| [Ctrl] + [V]
+
+| Paste the selected text without formatting or with options
+| [Ctrl] + [Shift] + [V]
+| [⌘] + [Shift] + [V]
+| [Ctrl] + [Shift] + [V]
+
+| Select all text
+| [Ctrl] + [A]
+| [⌘] + [A]
+| [Ctrl] + [A]
+
+| Find and replace words
+| [Ctrl] + [F]
+| [⌘] + [F]
+| [Ctrl] + [F]
+
+| Make the selected text bold
+| [Ctrl] + [B]
+| [⌘] + [B]
+| [Ctrl] + [B]
+
+| Make the selected text italic
+| [Ctrl] + [I]
+| [⌘] + [I]
+| [Ctrl] + [I]
+
+| Underline the selected text
+| [Ctrl] + [U]
+| [⌘] + [U]
+| [Ctrl] + [U]
+
+| Open a new document or window
+| [Ctrl] + [N]
+| [⌘] + [N]
+| [Ctrl] + [N]
+
+| Save the current document
+| [Ctrl] + [S]
+| [⌘] + [S]
+| [Ctrl] + [S]
+
+| Open another document
+| [Ctrl] + [O]
+| [⌘] + [O]
+| [Ctrl] + [O]
+
+| Print the current document
+| [Ctrl] + [P]
+| [⌘] + [P]
+| [Ctrl] + [P]
+
+| Undo the last change you made
+| [Ctrl] + [Z]
+| [⌘] + [Z]
+| [Ctrl] + [Z]
+
+| Redo a change that you just undid
+| [Ctrl] + [Shift] + [Z]
+| [⌘] + [Shift] +[Z]
+| [Ctrl] + [Y]
+
+| Toggle the current application between full-screen and windowed
+| [F11]
+| [⌘] + [Ctrl] + [F]
+| [F11]
+|===
+
+[[_shortcuts_special]]
+=== Ubuntu MATE Special Shortcuts
+
+[cols="1,1,1,1", frame="bottom", options="header"]
+|===
+| SHORTCUT
+| MATE DOCK APPLET* 
+| UBUNTU MATE MENUS*
+| MATE TERMINAL
+
+
+| Launch the first appliation in the dock
+| [Super] + [1]
+| 
+| 
+
+| Launch the second appliation in the dock
+| [Super] + [2]
+| 
+| 
+
+| Launch the third appliation in the dock
+| [Super] + [3]
+| 
+| 
+
+| Open the menu launcher
+| [Super]
+| [Super]
+| 
+
+| Activate the HUD (Heads-Up-Display)
+| [Alt]
+| [Alt]
+| [Alt]
+|===
+
+.Notes
+[NOTE]
+====
+The MATE Dock Applet is used in the Mutiny Layout. 
+
+The Ubuntu MATE menus are: MATE Menu, Brisk Menu, MATE Dock Applet. 
+====
+
+[[_shortcuts_window]]
+=== Window Shortcuts
+
+[cols="1,1,1,1", frame="bottom", options="header"]
+|===
+| SHORTCUT
+| UBUNTU MATE
+| MacOS 
+| WINDOWS 10
+
+|Switch between currently open windows
+| [Alt] + [Tab]
+| [⌘] + [Tab]
+| [Alt] + [Tab]
+
+| Switch between currently open windows in all workspaces
+| [Ctrl] + [Alt] + [Tab]
+| 
+| [Ctrl] + [Alt] + [Tab]
+
+| Switch to previous workspace
+| [Ctrl] + [Alt] + [←]
+| [Ctrl] + [←]
+| [⊞] + [Ctrl] + [←]
+
+| Switch to next workspace
+| [Ctrl] + [Alt] + [→]
+| [Ctrl] + [→]
+| [⊞] + [Ctrl] + [→]
+
+| Move the current window to the previous workspace
+| [Ctrl] + [Alt] + [Shift] + [←]
+| 
+| 
+
+| Move the current window to the next workspace
+| [Ctrl] + [Alt] + [Shift] + [→]
+|
+|
+
+| Quit application
+| [Alt] + [F4]
+| [⌘] + [Q]
+| [Ctrl] + [F4]
+
+| Close window
+| [Ctrl] + [W]
+| [⌘] + [W]
+| [Ctrl] + [F4]
+
+| Return window to 'normal' or previous size
+| [Alt]+[F5]
+|
+|
+
+| Move the current window
+| [Alt]+[F7]
+| 
+| 
+
+| Minimize current window
+| [Alt] + [F8]
+| 
+| 
+
+| Minimize current window
+| [Alt] + [F9]
+| [⌘] + [M]
+| 
+
+| Maximize current window
+| [Alt] + [F10]
+| 
+| 
+
+| Toggle the pulldown terminal
+| [Alt] + [F12]
+|
+|
+
+| Display the window menu with options such as 'Always on Top' and 'Minimize' and 'Maximize' and the above commands
+| [Alt] + [Space]
+|
+|
+
+| Place window in top left corner of screen
+| [Ctrl] + [Alt] + [NumPad 7]
+|
+| [⊞]+[←], [⊞]+[↑]
+
+| Place window in the top half of screen
+| [Ctrl] + [Alt] + [NumPad 8]
+|
+| [⊞] + [↑]
+
+|Place window in top right corner of screen
+| [Ctrl] + [Alt] + [NumPad 9]
+|
+| [⊞] + [→], [⊞] + [↑]
+
+| Center/Maximize the window in the middle of the screen
+| [Ctrl] + [Alt] + [NumPad 5]
+|
+| [⊞] + [↓]
+
+| Place window in the bottom left corner of the screen
+| [Ctrl] + [Alt] + [NumPad 1]
+|
+|[⊞] + [←], [⊞] + [↓]
+
+| Place window in the bottom half of screen
+| [Ctrl] + [Alt] + [NumPad 2]
+|
+| [⊞] + [↓]
+
+| Place window in the bottom right corner of the screen
+| [Ctrl] + [Alt] + [NumPad 3]
+|
+| [⊞] + [→], [⊞] + [↓]
+|===
+
+[[_shortcuts_desktop]]
+=== Desktop Shortcuts
+
+These are shortcuts you can use to operate parts of the desktop. 
+
+[cols="1,1,1,1", frame="bottom", options="header"]
+|===
+| SHORTCUT
+| UBUNTU MATE
+| MACOS
+| WINDOWS 10
+
+| Open the Applications menu
+| [Alt] + [F1] (Main Menu) [Super] (Brisk Menu)
+|
+| [Ctrl] + [Esc] or [⊞]
+
+| Run an application by typing its name in the box which appears
+| [Alt] + [F2]
+|
+| [⊞] + [R]
+
+| Take a screen shot of the whole screen
+| [PrtSc]
+| [⌘] + [Shift] + [3]
+| [⊞] + [PrtSc]
+
+| Take a screen shot of the current window
+| [Alt] + [PrtSc]
+| 
+| [Alt] + [PrtSc]
+
+| Open the dialog box to shutdown, restart or suspend
+| Tap the Power button
+| Hold the Power button for 1.5 sec
+|
+
+| Lock your screen
+| [Ctrl] + [Alt] + [L] or [Super] + [L]
+| [Ctrl] + [Shift] + [Power] or [Ctrl] + [Shift] + [Eject]
+| [⊞] + [L]
+
+| Open a terminal
+| [Ctrl] + [Alt] + [T]
+| 
+| 
+
+| Screen reader enable/disable
+| [Ctrl] + [Super] + [S]
+| [⌘] + [F5]
+| 
+|===
+
+[[_shortcuts_compiz]]
+=== Compiz Effects Shortcuts
+
+All of these shortcuts apply when the [app]``Compiz`` is selected as the window manager in the [app]``MATE Tweak`` tool and the appropriate effect is enabled. 
+
+[cols="1,1,1,1", frame="bottom", options="header"]
+|===
+| SHORTCUT
+| UBUNTU MATE
+| MACOS
+| WINDOWS 10
+
+| Toggles 'Show Desktop'
+| [Ctrl] + [Alt] + [D]
+| [F11]
+| [⊞] + [D]
+
+| Zoom out, show workspace switcher
+| [Super] + [A]
+| 
+| 
+
+| Enable the 'scale' effect, it shows all windows from the current workspace
+| [Super] + [W]
+| 
+| 
+
+| Enable the 'scale' effect, it shows all windows from all workspaces
+| [Super] + [Alt] + [W]
+| 
+| 
+
+| Invert colors of the focused window
+| [Super] + [N]
+| 
+| 
+
+| Invert colors for the whole screen
+| [Super] + [M]
+| 
+| 
+
+| Zoom in/out on the screen
+| [Super] + [Scroll]
+| 
+| 
+|===
+
+[[_page.faq]]
+== • • • FAQ • • •
+
+image::figures/ubuntu-mate.png[]
+
+[[_faq_whatis]]
+=== What is Ubuntu MATE exactly?
+
+See the <<_page.overview>> section in this guide. 
+
+[[_faq_canonical]]
+=== Is Ubuntu MATE an official Canonical project?
+
+No, it is an Ubuntu community project. 
+
+[[_faq_who]]
+=== OK, so _who is_ behind Ubuntu MATE?
+
+Take a look at our https://ubuntu-mate.org/team/[team page] on the website to see the all-star cast who have made Ubuntu MATE possible. 
+
+[[_faq_flavor]]
+=== Is Ubuntu MATE an official Ubuntu "flavor"?
+
+Ubuntu MATE 15.04 and onward are _official_ Ubuntu flavors. 
+
+Ubuntu MATE 14.04 and Ubuntu MATE 14.10 are _unofficial_ builds. 
+
+[[_faq_14.04lts]]
+=== Will you be making a 14.04 LTS version of Ubuntu MATE?
+
+We have, although it is not an official build.
+We have posted a https://ubuntu-mate.org/blog/2014-08-ubuntu-mate-14-04-from-scratch/[HOW-TO for installing your own Ubuntu MATE 14.04 from scratch.]
+
+[[_faq_xyz]]
+=== Why is _xyz_ application installed by default when I prefer _abc_ application?
+
+In general, the default application selection follows what shipped in Ubuntu 14.04.
+The only reason we deviate from the default Ubuntu applications is if they are not compatible with Ubuntu MATE or pull in lots of unnecessary dependencies. 
+
+The reason for using the default applications as shipped by Ubuntu is the Ubuntu staff support the default applications.
+The Ubuntu MATE team is rather small so sharing the support responsibility makes sense, both for us and our users. 
+
+[[_faq_abc]]
+=== Why is _xyz_ application installed default when _abc_ application is better?
+
+See the answer to the question above. 
+
+[[_faq_mypc]]
+=== Will Ubuntu MATE run on my computer?
+
+If you have a computer from Entroware, System 76, ZaReason or Think Penguin then Ubuntu MATE will absolutely run on your computer.
+Computers from major vendors such as Acer, ASUS, Dell, HP, and Lenovo will most likely run Ubuntu MATE just fine too. 
+
+Ubuntu MATE is designed to run on almost any computer hardware.
+Of course, Ubuntu MATE runs particularly well on the newest, fastest hardware, but it also runs well on almost any vintage of machine.
+In fact, an older computer designed during the Windows XP era can easily be outfitted with the new, modern and fully-supported Ubuntu MATE and it will likely run better than it did with the previously installed operating system. 
+
+[[_faq_itunes]]
+=== Can I use [app]``iTunes`` on Ubuntu MATE?
+
+No.
+This is one of those programs that is specifically designed by Apple NOT to run on Linux.
+Although Mac OS X has its roots in the same UNIX philosophy as Linux, OS X is not the same as Linux, and applications written for Apple's operating system do not automatically run on Linux.
+There are, however, plenty of alternative media players that will play music, create playlists, sync with mobile devices, and retrieve, manage and play podcasts. [app]``Rhythmbox`` is provided with Ubuntu MATE and can play any of the music or podcasts in your [app]``iTunes`` library. 
+
+[[_faq_safe]]
+=== Is Ubuntu MATE secure and safe to use?
+
+Ubuntu MATE is designed with security in mind.
+Unlike operating systems that update only once a month, Ubuntu MATE receives updates continuously.
+The updates include security patches for Ubuntu MATE and all of its components.
+Security updates for all of its installed applications are also provided on the same schedule.
+This ensures that you have the latest protection for all of your computer's software, as soon as it's available! 
+
+[[_faq_secure]]
+=== Is Ubuntu MATE more secure than other operating systems?
+
+We think that security on Linux systems like Ubuntu MATE is superior.
+Ubuntu MATE users are not administrators by default.
+Administrators ("root" users) on any computer system have permission to do anything they want, including the ability to damage the system. 
+
+For example, other operating systems look at the name of a file to determine which program should open it, then immediately attempt to open it! That design makes it easy for an intruder to attack a computer.
+Ubuntu MATE opens a file based on what the file is, not based on its name.
+So even if a malicious program disguises its identity by using the name "Last Will and Testament.txt" Ubuntu MATE will recognize the file as a program.
+The system provides a warning that the file is not a text file, but that it is a program that will be run if you give it permission to continue.
+To be extra secure, Ubuntu MATE requires you to provide your administrator password before that permission is granted.
+Every single time. 
+
+[[_faq_virus]]
+=== Can Ubuntu MATE get computer viruses and malware?
+
+Ubuntu MATE can get viruses and other infections... but it doesn't.
+Rapid and timely updates ensure that there are very few (if any) threats to Linux systems like Ubuntu MATE that persist in the wild.
+In reality, there have been very few "public" infections in the last 10 years that can affect Ubuntu MATE.
+They are no longer a threat to anyone installing or using a modern Linux distribution today.
+Ubuntu MATE is designed to make it difficult for viruses, rootkits, and other malware to be installed and run without conscious intervention by you, the user.
+Even if you do accidentally invite in an infection, chances are it's designed to attack Windows and won't do much, if any damage to Ubuntu MATE. 
+
+[[_faq_free]]
+=== How can Ubuntu MATE be free?
+
+What Linux, Ubuntu and MATE Desktop all have in common is they are Open Source.
+Open Source software is software that can be freely used, changed, and shared (in modified or unmodified form) by anyone.
+In a nutshell, Ubuntu MATE is free, in the truest sense of the word. 
+
+Although you will find some versions (distributions) of Linux for purchase, the vast majority are provided free of charge, like Ubuntu MATE.
+Open Source software is licensed in a way that allows anyone to give it away for free, no strings attached.
+For example, the license gives any member of the user community the freedom to use Linux for any purpose, to distribute, modify, redistribute, or even sell the operating system.
+If you do modify and then redistribute Linux with your modifications, you are required by the license to submit your modifications for possible inclusion into future versions.
+There is no guarantee that this will ever happen, but if you have made it better, then your changes just might be included in the next release of Ubuntu MATE. 
+
+Many of the users of Linux are corporations that use the operating system to run their businesses or include it in their products.
+Many of these corporations provide fixes and new features for Linux as they use the software for their businesses.
+These improvements are given back to the Linux community and Ubuntu MATE improves as a result. 
+
+This is how we can continually improve and grow without having to charge our users money. 
+
+[[_faq_contact]]
+=== I've got a question. Where do I ask?
+
+Ask the https://ubuntu-mate.org/community/[Ubuntu MATE community]. 
+
+[[_faq_future]]
+=== What has Ubuntu MATE got planned for the future?
+
+Hopefully, our https://ubuntu-mate.org/roadmap/[roadmap] outlines some of what we have planned.
+If you have any ideas yourself, we'd love to hear from you. 
