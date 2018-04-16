@@ -7,7 +7,7 @@
 image::figures/ubuntu-mate.png[]
 
 .Disclaimer
-WARNING: This document was automatically converted from DocBook, there is a high chance that parts of the text are missing or is in incorrect format.  This version still needs a bunch of manual cleanup, proofreading and restructuring. If you wish to read the original source written in DocBook XML V4.5 format  - head over to: https://github.com/ubuntu-mate/ubuntu-mate-guide[]. 
+WARNING: This document was automatically converted from DocBook, there is a high chance that parts of the text are missing or presented in the wrong format.  This version still needs a bunch of manual cleanup, proofreading and restructuring. If you wish to read the original source written in DocBook XML V4.5 format  - head over to: https://github.com/ubuntu-mate/ubuntu-mate-guide[]. 
 
 DocBook version is bundled with the latest release of Ubuntu MATE 18.04
 
@@ -369,15 +369,8 @@ The <<_panel_layouts_netbook>>, <<_panel_layouts_mutiny>> and <<_panel_layouts_c
 [app]``MATE Calculator`` has four modes: Basic, Advanced, Financial and Programming.
 The Advanced mode is shown, below. 
 
-[cols="1", frame="all"]
-|===
-
-|
-
-
 image::figures/MATE_calculator.png[]
 
-|===
 
 .Calculator
 [TIP]
@@ -487,15 +480,7 @@ All modifications made in JPEG images are lossless.
 That is, saving rotated and flipped JPEG images will not recompress the image.
 Besides this, all available metadata (like EXIF) will be preserved and updated accordingly. 
 
-[cols="1", frame="all"]
-|===
-
-|
-
-
 image::figures/exif-data.png[]
-
-|===
 
 [[_page.atril]]
 == Document Viewer (Atril)
@@ -564,15 +549,7 @@ It is also the first menu item for <<_panel_layouts_contemporary>>, <<_panel_lay
 The <<_panel_layouts_netbook>>, <<_panel_layouts_mutiny>> and <<_panel_layouts_cupertino>> have no label and simply display the Ubuntu MATE logo to represent the menu. 
 ====
 
-[cols="1", frame="all"]
-|===
-
-|
-
-
 image::figures/disk-usage.png[]
-
-|===
 
 
 The [app]``Disk Usage Analyzer`` window contains the elements listed in the sections below. 
@@ -610,30 +587,14 @@ It is also the first menu item for <<_panel_layouts_contemporary>>, <<_panel_lay
 The <<_panel_layouts_netbook>>, <<_panel_layouts_mutiny>> and <<_panel_layouts_cupertino>> have no label and simply display the Ubuntu MATE logo to represent the menu. 
 ====
 
-[cols="1", frame="all"]
-|===
-
-|
-
-
 image::figures/sysmon_system.png[]
-
-|===
-
 
 The [label]#System# tab shows information about the computer's hardware and software, as shown above.
 The [label]#Processes# tab, shown below, shows information about active processes (applications, utilities, etc.) and how they relate to each other.
 You can stop, end, or kill a process or otherwise control active processes. 
 
-[cols="1", frame="all"]
-|===
-
-|
-
 
 image::figures/sysmon_processes.png[]
-
-|===
 
 
 The [label]#Resources# tab displays current CPU, memory, and network usage. menu:File Systems[] lists all mounted file systems and basic information about each. 
@@ -678,7 +639,6 @@ It is a powerful command-line tool which can be used to install new software pac
 For additional information about the [app]``apt`` application, type the following in a terminal window: 
 
 ----
-
 man apt
 ----
 ====
@@ -688,7 +648,6 @@ The apt command can be used to update the index of available software packages t
 To do this, type the following in the terminal window: 
 
 ----
-
 sudo apt update
 ----
 
@@ -705,7 +664,6 @@ Installing software using the apt tool is quite simple, provided you know the na
 For example, to install the audio recording and editing application [app]``Audacity``, type the following into a terminal window at the command prompt: 
 
 ----
-
 sudo apt install audacity
 ----
 
@@ -713,7 +671,6 @@ To uninstall (remove) an application is just as easy.
 To remove the [app]``Audacity`` application installed in the previous example, type the following: 
 
 ----
-
 sudo apt remove audacity
 ----
 
@@ -722,7 +679,6 @@ This may or may not do what you want, so use it with caution.
 Here's how that looks using our same example: 
 
 ----
-
 sudo apt remove --purge audacity
 ----
 
@@ -730,14 +686,12 @@ Over time, updated versions of packages currently installed on your computer may
 To use the command line to upgrade the applications on your system, first update the package index: 
 
 ----
-
 sudo apt update
 ----
 
 When that command has finished running, type the following to complete the upgrade: 
 
-----
-
+---
 sudo apt upgrade
 ----
 
@@ -747,7 +701,6 @@ sudo apt upgrade
 Possibly the easiest command to use in the terminal to get a full listing of your computer's configuration is 
 
 ----
-
 inxi -F
 ----
 
@@ -755,26 +708,17 @@ as shown below.
 For a more verbose set of information, use 
 
 ----
-
 inxi -Frmxx
 ----
 
 For just the very basic info, type simply 
 
 ----
-
 inxi
 ----
 
-[cols="1", frame="all"]
-|===
-
-|
-
 
 image::figures/inxi.gif[]
-
-|===
 
 
 You can also type the "list hardware" command, [app]``lshw``, at the command line without any switches or options, but the text file it generates runs on forever and is a little difficult to follow in the terminal.
@@ -806,16 +750,8 @@ To go there directly, open the [app]``MATE Terminal`` application from the menu,
 image:apps/control-centre.png[] The [app]``Control Center`` provides you with a single window that houses all of the major Ubuntu MATE preference tools.
 These tools let you tweak the way things look and behave, manage software updates, and make adjustments to the printing system, among other things. 
 
-[cols="1", frame="all"]
-|===
-
-|
-
 
 image::figures/control_center.png[]
-
-|===
-
 
 Simply click the icon for the preference you want to adjust.
 Each of these preferences is also available under the menu:Menu[Preferences] menu.
